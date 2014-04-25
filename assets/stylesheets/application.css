@@ -416,7 +416,7 @@ h3{
 }
 
 #contact{
-  min-height: 600px;
+  /*min-height: 600px;*/
 }
 
 #contact h1{
@@ -451,6 +451,10 @@ h3{
   margin-top: -35px;
   line-height: 200px;
   margin-left: -25px;
+}
+
+#contact-title{
+  margin-bottom: 45px;
 }
 
 #contact-form{
