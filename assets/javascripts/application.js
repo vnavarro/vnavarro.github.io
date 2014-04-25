@@ -19,8 +19,6 @@
 
 $(document).ready(function() {
 
-  $('.carousel').carousel({interval:false});
-
   /* affix the navbar after scroll below header */
   $('#nav').affix({
     offset: {
@@ -43,42 +41,34 @@ $(document).ready(function() {
     $('body,html').animate({scrollTop:posi},700);
   });
 
-
-  /* copy loaded thumbnails into carousel */
-  $('.panel .img-responsive').on('load', function() {
-
-  }).each(function(i) {
-    if(this.complete) {
-      var item = $('<div class="item"></div>');
-      var itemDiv = $(this).parent('a');
-      var title = $(this).parent('a').attr("title");
-
-      item.attr("title",title);
-      $(itemDiv.html()).appendTo(item);
-      item.appendTo('#modalCarousel .carousel-inner');
-      if (i==0){ // set first item active
-       item.addClass('active');
-      }
-    }
-  });
-
-  /* activate the carousel */
-  $('#modalCarousel').carousel({interval:false});
-
-  /* change modal title when slide changes */
-  $('#modalCarousel').on('slid.bs.carousel', function () {
-    $('.modal-title').html($(this).find('.active').attr("title"));
-  })
-
-  /* when clicking a thumbnail */
-  $('.panel-thumbnail>a').click(function(e){
-
-      e.preventDefault();
-      var idx = $(this).parents('.panel').parent().index();
-      var id = parseInt(idx);
-
-      $('#myModal').modal('show'); // show the modal
-      $('#modalCarousel').carousel(id); // slide carousel to selected
-      return false;
-  });
 });
+
+function click_project_first(){
+  if(div_toogle('#games','#apps')){
+    $('.project-btn-first').addClass('project-btn-first-selected');
+    $('.project-btn-mid').removeClass('project-btn-mid-selected');
+  }
+}
+
+function click_project_mid(){
+  if(div_toogle('#apps','#games')){
+    $('.project-btn-mid').addClass('project-btn-mid-selected');
+    $('.project-btn-first').removeClass('project-btn-first-selected');
+  }
+}
+
+function div_toogle(id_down,id_up){
+  if($(id_up).css('display') == 'block') return false;
+
+  $(id_down).fadeOut({complete: function(){
+        $(id_up).fadeIn("slow");
+        refresh_scrollspy();
+      }})
+  return true;
+}
+
+function refresh_scrollspy(){
+  $('body').each(function () {
+    var $spy = $(this).scrollspy('refresh')
+  })
+}

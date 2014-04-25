@@ -12,51 +12,6 @@
 
   <link href="/assets/stylesheets/application.css?body=1" media="all" rel="stylesheet" type="text/css">
   <script src="/assets/javascripts/application.js?body=1" type="text/javascript"></script>
-
-  <script type="text/javascript">
-  function click_project_first(){
-    if(div_toogle('#games','#apps')){
-      $('.project-btn-first').addClass('project-btn-first-selected');
-      $('.project-btn-mid').removeClass('project-btn-mid-selected');
-    }
-  }
-  function click_project_mid(){
-    if(div_toogle('#apps','#games')){
-      $('.project-btn-mid').addClass('project-btn-mid-selected');
-      $('.project-btn-first').removeClass('project-btn-first-selected');
-    }
-  }
-  function div_toogle(id_down,id_up){
-    if($(id_up).css('display') == 'block') return false;
-
-
-    $(id_down).fadeOut({complete: function(){$(id_up).fadeIn("slow")}})
-    return true;
-  }
-  </script>
-</head>
-
-  <script type='text/javascript'>
-  function click_project_first(){
-    if(div_toogle('#games','#apps')){
-      $('.project-btn-first').addClass('project-btn-first-selected');
-      $('.project-btn-mid').removeClass('project-btn-mid-selected');
-    }
-  }
-  function click_project_mid(){
-    if(div_toogle('#apps','#games')){
-      $('.project-btn-mid').addClass('project-btn-mid-selected');
-      $('.project-btn-first').removeClass('project-btn-first-selected');
-    }
-  }
-  function div_toogle(id_down,id_up){
-    if($(id_up).css('display') == 'block') return false;
-
-
-    $(id_down).fadeOut({complete: function(){$(id_up).fadeIn("slow")}})
-    return true;
-  }
-  </script>
 </head>
 <body>
   <!-- Wrap all page content here -->
@@ -495,32 +450,5 @@
   <ul class="nav pull-right scroll-top">
     <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
   </ul>
-
-
-  <div class="modal" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    <div class="modal-content">
-    <div class="modal-header">
-      <button class="close" type="button" data-dismiss="modal">×</button>
-      <h3 class="modal-title"></h3>
-    </div>
-    <div class="modal-body">
-      <div id="modalCarousel" class="carousel">
-
-            <div class="carousel-inner">
-
-            </div>
-
-            <a class="carousel-control left" href="#modaCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-            <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-
-          </div>
-    </div>
-    <div class="modal-footer">
-      <button class="btn btn-default" data-dismiss="modal">Close</button>
-    </div>
-     </div>
-    </div>
-  </div>
 </body>
 </html>
