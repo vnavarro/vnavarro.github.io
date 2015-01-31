@@ -1,0 +1,34 @@
+
+<div class="col-sm-4">
+  <div class='light-box-shadow'>
+    <div class='project-item-img'
+    style='background-image: url("{{ include.img }}")'>
+  </div>
+  <h3>{{ include.title }}</h3>
+  <p>
+    {{ include.description }}
+    {% if {{include.appstore}} %}
+  </br>
+</br>
+Download for <a href='{{ include.appstore }}'>iOS</a>
+{% endif %}
+{% if include.android %}
+</br>
+</br>
+Download for <a href='{{ include.android }}'>Android</a>
+{% endif %}
+{% if include.windows %}
+</br>
+</br>
+Download for <a href='{{ include.windows }}'>WindowsPhone</a>
+{% endif %}
+</br>
+</br>
+{% if include.more %}
+<a class='raleway-semibold' href='{{ include.more }}'>
+  {{ include.more_content }}
+</a>
+{%endif%}
+</p>
+</div>
+</div>
