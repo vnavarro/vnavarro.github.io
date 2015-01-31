@@ -24,6 +24,23 @@ body {
 }
 
 
+/**
+* Basic text
+*/
+
+.font-normal{
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+}
+
+.font-semibold{
+  font-family: $base-font-family;
+  font-weight: $base-font-weight + 200;
+}
+
+p, a{
+  @extend .font-normal;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm

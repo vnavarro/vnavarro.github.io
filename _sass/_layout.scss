@@ -1,4 +1,12 @@
 /**
+* Backgrounds
+*/
+.bg-3 {
+  background-color:#ececec;
+  padding-bottom: 50px;
+}
+
+/**
  * Site header
  */
 .site-header {
@@ -161,6 +169,11 @@
 /**
  * Page content
  */
+ .page-container{
+   @extend .bg-3;
+   padding-top: 80px;
+ }
+
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -180,10 +193,12 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $grey-color-text;
 }
 
 .post-link {
+    @extend .font-semibold;
+    color: $blue-color-dark !important;
     display: block;
     font-size: 24px;
 }
