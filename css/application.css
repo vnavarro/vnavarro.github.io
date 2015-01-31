@@ -247,6 +247,7 @@ section {
 
 .bg-3 {
   background-color:#ececec;
+  padding-bottom: 50px;
 }
 
 .bg-4 {
@@ -328,37 +329,37 @@ h3{
 .project-btn-first{
   height: 127px;
   width: 128px;
-  background-image: url('../images/home/apps_off_en.png');
+  background-image: url('../assets/home/apps_off_en.png');
   background-position: center;
 }
 
 .project-btn-first:hover, .project-btn-first-selected{
   height: 127px;
   width: 128px;
-  background-image: url('../images/home/apps_on_en.png');
+  background-image: url('../assets/home/apps_on_en.png');
   background-position: center;
 }
 
 .project-btn-mid{
-  background-image: url('../images/home/games_off_en.png');
+  background-image: url('../assets/home/games_off_en.png');
   height: 127px;
   width: 128px;
 }
 
 .project-btn-mid:hover, .project-btn-mid-selected{
-  background-image: url('../images/home/games_on_en.png');
+  background-image: url('../assets/home/games_on_en.png');
   height: 127px;
   width: 128px;
 }
 
 .project-btn-last{
-  background-image: url('../images/home/code_curly_off_en.png');
+  background-image: url('../assets/home/code_curly_off_en.png');
   height: 127px;
   width: 128px;
 }
 
 .project-btn-last:hover{
-  background-image: url('../images/home/code_curly_on_en.png');
+  background-image: url('../assets/home/code_curly_on_en.png');
   height: 127px;
   width: 128px;
 }

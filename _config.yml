@@ -1,0 +1,15 @@
+# Site settings
+title: vitor.navarro
+my_title: Software Engineer
+email: dev.vitor.navarro@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is my corner with the awesome stuff I create. You will find software of
+  almost any kind, the new home for my posts and a bit more.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.vnavarro.com.br" # the base hostname & protocol for your site
+twitter_username: vitor_navarro
+github_username:  vnavarro
+linkedin: vnavarro87
+
+# Build settings
+markdown: kramdown
