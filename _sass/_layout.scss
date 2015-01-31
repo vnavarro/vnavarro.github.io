@@ -169,6 +169,10 @@
 /**
  * Page content
  */
+ .rss-subscribe{
+
+ }
+
  .page-container{
    @extend .bg-3;
    padding-top: 80px;
@@ -208,6 +212,10 @@
 /**
  * Posts
  */
+ .post{
+   @extend .page-container;
+ }
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -223,6 +231,9 @@
 }
 
 .post-content {
+    @extend .font-semibold;
+    font-size: $medium-font-size;
+
     margin-bottom: $spacing-unit;
 
     h2 {

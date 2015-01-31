@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Welcome to the new blog house!"
+date:   2015-01-31 15:35:00
+categories: layout update
+tags: "layout, blog"
+---
+After so many years using blogspot I decided to move on.
+
+Why one would ask. I have a few reasons:
+
+1. It was not integrated into my site
+2. Full of unnecessary visual garbage
+3. I wanted to try [jekyll](http://jekyllrb.com/)
+
+The old posts still be going to live [there](http://ideiasbynavarro.blogspot.com.br/).
+
+So welcome and enjoy!
