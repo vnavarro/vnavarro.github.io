@@ -13,3 +13,5 @@ linkedin: vnavarro87
 
 # Build settings
 markdown: kramdown
+# kramdown:
+#   input: GFM

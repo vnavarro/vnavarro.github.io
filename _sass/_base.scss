@@ -38,8 +38,12 @@ body {
   font-weight: $base-font-weight + 200;
 }
 
-p, a{
+p, a, blockquote{
   @extend .font-normal;
+}
+
+blockquote{
+  color: $grey-color-text !important;  
 }
 
 /**
