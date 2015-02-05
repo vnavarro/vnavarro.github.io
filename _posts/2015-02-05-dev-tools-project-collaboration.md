@@ -28,7 +28,7 @@ There is no gantt chart and also lacks something like campfire (slack or whateve
 
 Basecamp's competitor which has a subscription free layer. Sincerely I never used this one but has a plethora of features, like gantt charts, chat, video chat, HR management and even basecamp migration tool.
 
-Ok the payed layer starts at pricey $99/month yet it costs nothing to pay a [visit](http://www.bitrix24.com/) right.
+Ok the payed layer starts at pricey $99/month yet it costs nothing to pay a [visit](http://www.bitrix24.com/).
 
 ###3. Trello
 
