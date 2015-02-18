@@ -3,5 +3,9 @@ layout: default
 ---
 
 <div class="container-fluid page-container">
-  {% markdown cv.md %}
+
+  {% capture name %} {% include cv.md %} {% endcapture %}
+
+  {{ name | markdownify }}
+
 </div>
