@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[A programmer's journey] Rust quest - part 1"
-date:   2015-02-26 11:12:00
+date:   2015-03-08 20:15:00
 categories: journey rust
 tags:
   - journey
