@@ -15,7 +15,7 @@ Know how to communicate, understand better peers roles and tasks, be in sync wit
 
 I'll try to start spreading what I've learned about being a better professional along these years as well for the next ones, and I guess that picking a good book is a nice way to begin with.
 
-![The Passionate Programmer](http://ecx.images-amazon.com/images/I/71p12ZrrSyL.jpg)
+<img src="http://ecx.images-amazon.com/images/I/71p12ZrrSyL.jpg" alt="The Passionate Programmer cover" style="width: 300px;"/>
 
 [The Passionate Programmer](https://pragprog.com/book/cfcar2/the-passionate-programmer) from [Chad Fowler](http://chadfowler.com/) is a non-technical book that gave tips on how to be a better professional. Its targeted to programmers and yet can be easily read by others.
 
