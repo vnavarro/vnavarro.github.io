@@ -477,3 +477,7 @@ h3{
   font-size: 14px;
   width: 100%;
 }
+
+.clear_float{
+  clear: both;
+}
