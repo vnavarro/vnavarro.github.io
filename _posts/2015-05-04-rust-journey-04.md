@@ -55,5 +55,6 @@ fn sum(x: i32, y: i32) -> i32{
 
 We almost got through the basics to grasp the tip of the iceberg, next dungeons we will conquer are: types and loops.
 
-Oh and before you go, remember
+Oh and before you go, remember  
+
 ![](https://dl.dropboxusercontent.com/u/14137502/site/maythe4th.jpg)  
