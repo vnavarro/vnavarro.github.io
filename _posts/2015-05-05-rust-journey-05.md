@@ -31,7 +31,8 @@ let thisIsI32 = 32;
 let pi: f32 = 3.14;
 {% endhighlight %}
 
-Every number is declared as its default or using the given set of rules:
+Every number is declared as its default or using the given set of rules:  
+
 * Any number type is composed of category and size, like in i32, i stands for integer and 32 is its size in bits.
 * Signed numbers get the 'i' ahead its size
 * Unsigned numbers get the 'u' ahead its size
