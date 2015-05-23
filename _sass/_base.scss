@@ -23,7 +23,6 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
 /**
 * Basic text
 */
@@ -43,7 +42,23 @@ p, a, blockquote{
 }
 
 blockquote{
-  color: $grey-color-text !important;  
+  color: $grey-color-text !important;
+}
+
+.small-size-text{
+  font-size: $small-font-size;
+}
+
+.base-font-size{
+  font-size: $base-font-size;
+}
+
+.medium-size-text{
+  font-size: $medium-font-size;
+}
+
+.big-size-text{
+  font-size: $big-font-size;
 }
 
 /**
@@ -123,7 +138,15 @@ a {
     }
 }
 
+.link{
+  color: #484848;
+  font-size: 14px;
+}
 
+.link-medium{
+  @extend .base-font-size;
+  color: #484848;
+}
 
 /**
  * Blockquotes

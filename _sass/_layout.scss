@@ -170,7 +170,7 @@
  * Page content
  */
  .rss-subscribe{
-
+   font-size: $medium-font-size;
  }
 
  .page-container{
@@ -204,7 +204,7 @@
     @extend .font-semibold;
     color: $blue-color-dark !important;
     display: block;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 
