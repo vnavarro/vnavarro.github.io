@@ -12,7 +12,7 @@ Today I have a special post for my fellow brazilians and those that can read in 
 
 As I said in [this](http://vnavarro.com.br/betterpro/books/2015/03/10/better-pro-books-01.html) previous post, there is more for any professional to know beyond execution, yet we can't forget about it.
 
-So in order to advance as a programmer in efficiency, code quality, code architecture, testing, integration, operation, communication, planning and tons of other things lets roll back a moment to these questions:
+So in order to advance as a programmer lets first roll back a moment to these questions:
 
 1. Do you understand and apply correctly object oriented programming?
 2. Do you understand and apply correctly design patterns?
@@ -48,7 +48,7 @@ So if SOLID puzzles you everytime you heard of it do yourself a favor and go che
 
 My only two questions on these books:
 
-1. Some important concepts that are not responsibility of theme are just information boxes. Appendix sections would improve them be a few miles.
+1. Some important releated concepts that are not responsibility of the book are just information boxes. Having Appendix sections could improve them by a few miles.
 2. Why Java? (Yet why not?)
 
 In the end they are good books from beginner (1) to masters (2, 3) at a fair ebook price with pdf, epub and mobi versions.
