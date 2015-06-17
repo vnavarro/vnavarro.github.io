@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Be a better pro] Alternatives to cross-platform on mobile: j2ObjC"
-date:   2015-05-16 11:44:00
+title:  "[DevTools] Alternatives to cross-platform on mobile: j2ObjC"
+date:   2015-06-16 11:44:00
 categories: cross-platform j2objc
 tags:
   - cross-platform
@@ -38,11 +38,13 @@ And before you think ignoring it, **don't**, I have been using the project durin
 * Solves your problem if you have lots of business code that can be shared across  platforms, but also when this code is shared across apps.
 * Well know environment and language, that is especially good if you have a team with all kinds of different skills.
 
+<div style="text-align:center">
+<img width="200px" src="http://s2.quickmeme.com/img/6a/6acbf45c7fde7f40efb6f1561cd52d0eb62f70dff22602e3e096d215a7e79e84.jpg">
+</div>
+
 ## Conclusion
 
 It's a good open source tool to help us in cross-platform applications development maintained by one of the biggest tech companies, I think the least we can do is take a peek and check if would solve our problems. Worth checking!
-
-![Hell yeah!](http://s2.quickmeme.com/img/6a/6acbf45c7fde7f40efb6f1561cd52d0eb62f70dff22602e3e096d215a7e79e84.jpg)
 
 > Pro tip: consider collaborate to project evolution, as open source projects give so much they should also receive back.
 
