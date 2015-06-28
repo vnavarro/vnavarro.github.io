@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Presenting: Google's Material Design"
+title:  "[Quickies] Presenting: Google's Material Design"
 date:   2015-06-23 19:39:00
 categories: mobile material-design
 tags:
@@ -20,11 +20,16 @@ Material Design is Google take on a visual language to elevate design to a new l
 
 Was there problems with the way we did design before? I really don't think so, yet we can benefit from innovation on the current status quo.
 
-I'm not a designer, neither a wanna be, but is important to us to understand our surroundings in technology to create better products.
+And, although I'm not a designer, is important to us to understand our surroundings in the technology we create so our future and current products become better. In that way we should try to discover new ways of leverage the best user experience and Material Design is a interesting concept on how to achieve that improvement.
 
-Being that said here is a video from Google talking about what is Material Design.
+That being said, here is a video from Google talking about what is Material Design.
 
+<div style="text-align:center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rrT6v5sOwJg" frameborder="0" allowfullscreen></iframe>
+</div>
+
+As a bônus, if you like Angular[^2], check [Angular Material](https://material.angularjs.org/latest/#/) which is an implementation of Material Design specs.
 
 
 [^1]: [Material Design](https://www.google.com/design/spec/material-design/introduction.html#)
+[^2]: [AngularJS](https://angularjs.org/)
