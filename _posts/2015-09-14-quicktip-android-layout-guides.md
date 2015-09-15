@@ -20,7 +20,8 @@ In Android devices there is a bunch of cool features on Developer Settings[^1] t
 With it you can see plenty of guide lines showing margins, bounds and paddings. Although the information isn't present the type of layout which was used can be inferred by the way things are positioned.
 
 To enable it:
-1. Go to the settings menu, and scroll down to "Developer options". (if not present use this [trick](http://www.androidcentral.com/how-enable-developer-settings-android-42) from android central)
+
+1. Go to the settings menu, and scroll down to "Developer options"[^2].
 2. After accessing it scroll down to "Show layout bounds" and switch it on.
 3. Done.
 
@@ -29,3 +30,4 @@ To enable it:
 That's all for today, see you around in the next QuickTips.
 
 [^1]:[32 useful things in Android developer options by pcadvisor](http://www.pcadvisor.co.uk/how-to/google-android/32-useful-things-you-can-do-in-android-developer-options-3590299/)
+[^2]:[How to enable developer options by Android Central](http://www.androidcentral.com/how-enable-developer-settings-android-42)
