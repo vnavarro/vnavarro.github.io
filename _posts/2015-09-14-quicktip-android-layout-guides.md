@@ -15,7 +15,7 @@ Often is quite difficult to check if everything fits well in the layout once the
 
 In Android devices there is a bunch of cool features on Developer Settings[^1] that helps turning things easier to test, yet there is one cool feature that I love the most: Show layout bounds.
 
-![Show layout bounds screenshot](https://drive.google.com/file/d/0B-QicWV_5Vyxa1ZJYjFiR0pGSW8/view?usp=sharing)
+![Show layout bounds screenshot](http://vnavarro.com.br/assets/showlayoutbounds.png)
 
 With it you can see plenty of guide lines showing margins, bounds and paddings. Although the information isn't present the type of layout which was used can be inferred by the way things are positioned.
 
