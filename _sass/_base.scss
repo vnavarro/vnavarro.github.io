@@ -235,6 +235,10 @@ pre {
  */
 .icon {
 
+    img {
+      margin-left:10px;
+    }
+
     > svg {
         display: inline-block;
         width: 53px;
