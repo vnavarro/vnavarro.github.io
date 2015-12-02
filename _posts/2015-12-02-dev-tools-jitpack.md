@@ -21,7 +21,7 @@ If the projects needed are controlled using either Github or Bitbucket there is 
 
 This service transformed this problem almost in ashes, configure your project build.gradle with its url and add the dependencies using his expected format, this is all you need to hit the ground running.
 
-{% highlight gradle %}
+{% highlight java %}
 repositories {
         // ...
         maven { url "https://github.com" }
@@ -39,5 +39,6 @@ In the end, I found it to be an excellent and fair addition to a developers' too
 ### Small issue
 
 They plan to release a version which work with repos that are hosted in custom git structures, like Google's Volley library.
+
 
 [^1]:[Bintray](https://bintray.com/) from JFrog hosts java projects to be fetched by maven, gradle and other types of dependency managers in Java.
