@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[DevTools] Online Project Collaboration"
 date:   2015-02-05 16:00:00
 categories: devtools management

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[DevTools] Importing non-gradle projects: JitPack"
 date:   2015-12-02 19:50:00
 categories: tools java jitpack

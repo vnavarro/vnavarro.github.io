@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[Be a better pro] Books to read - Casa do código"
 date:   2015-05-26 00:06:00
 categories: betterpro books

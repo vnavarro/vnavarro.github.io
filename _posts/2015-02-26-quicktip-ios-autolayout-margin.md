@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[QuickTips] Ignoring default margin in iOS Autolayout"
 date:   2015-02-26 11:12:00
 categories: quicktips ios autolayout
