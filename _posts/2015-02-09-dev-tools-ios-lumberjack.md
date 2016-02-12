@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[DevTools] Logging on OSX/iOS with CocoaLumberjack"
 date:   2015-02-09 14:00:00
 categories: devtools logging

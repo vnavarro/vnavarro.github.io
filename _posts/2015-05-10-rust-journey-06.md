@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[A programmer's journey] Rust quest - day 6"
 date:   2015-05-10 11:40:00
 categories: journey rust

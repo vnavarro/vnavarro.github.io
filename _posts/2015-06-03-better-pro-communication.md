@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[Be a better pro] Communication"
 date:   2015-06-03 21:06:00
 categories: betterpro communication

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[Quickies] Presenting: Google's Material Design"
 date:   2015-06-23 19:39:00
 categories: mobile material-design

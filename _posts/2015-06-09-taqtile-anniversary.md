@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[Off-topic] My first Taqtile Anniversary"
 date:   2015-06-09 19:39:00
 categories: offtopic

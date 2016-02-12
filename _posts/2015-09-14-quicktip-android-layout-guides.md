@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[QuickTips] Turn guide lines in your Android device"
 date:   2015-09-14 17:16:00
 categories: android layout

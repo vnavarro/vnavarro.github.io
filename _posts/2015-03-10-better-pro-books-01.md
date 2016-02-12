@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[Be a better pro] Books to read - The Passionate programmer"
 date:   2015-03-10 11:25:00
 categories: betterpro books

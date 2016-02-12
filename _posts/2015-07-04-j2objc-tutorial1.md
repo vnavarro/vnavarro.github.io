@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[DevTools] J2ObjC: How to translate and basic automation with bash"
 date:   2015-07-04 14:46:00
 categories: cross-platform j2objc

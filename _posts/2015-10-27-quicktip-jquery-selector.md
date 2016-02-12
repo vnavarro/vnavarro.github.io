@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "[QuickTips] Ensure that html tag attribute exists and isn't empty"
 date:   2015-10-27 20:26:00
 categories: jquery selector
