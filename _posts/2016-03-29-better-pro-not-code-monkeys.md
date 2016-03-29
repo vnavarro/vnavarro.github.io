@@ -19,7 +19,7 @@ I searched ways to pass this onwards clearly and more compeling, it happens that
 <br/>
 Also one could check [ACM's Software Engineering Code of Ethics and Professional Practice](http://www.acm.org/about/se-code), I didn't read it fully yet but my guidance is to not stay put in face of challenges/problems and to improve yourself not only as a professional but also as a person.
 
-Here also some books to help one in the hard journey to come:
+Go beyond with some help, these books may light the dark on one's journey:
 
 * [Please Don't Just Do What I Tell You! Do What Needs to Be Done](http://www.amazon.com/Please-Dont-Just-What-Needs/dp/0786867299/ref=asap_bc?ie=UTF8)
 * [Clean Code](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
