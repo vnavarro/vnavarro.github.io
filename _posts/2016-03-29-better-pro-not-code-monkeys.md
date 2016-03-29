@@ -2,19 +2,21 @@
 layout: post
 comments: true
 title:  "[Be a better pro] Not code monkeys"
-date:   2016-03-2917:40:00
+date:   2016-03-29 17:40:00
 categories: better-pro coding
 tags:
   - better-pro
   - coding
 ---
 
-The way we do things in our jobs or while working in pet/open source projects have an impact we tend to ignore or overlook. 
+The way we do things in our jobs or while working in pet/open source projects have an impact we tend to ignore or overlook.
 
 I searched ways to pass this onwards clearly and more compeling, it happens that Martin Fowler has provided this service to us with his talk "Not Just Code Monkeys"
+<br/>
 
 <iframe width="840" height="630" src="https://www.youtube.com/embed/4E3xfR6IBII" frameborder="0" allowfullscreen></iframe>
 
+<br/>
 Also one could check [ACM's Software Engineering Code of Ethics and Professional Practice](http://www.acm.org/about/se-code), I didn't read it fully yet but my guidance is to not stay put in face of challenges/problems and to improve yourself not only as a professional but also as a person.
 
 Here also some books to help one in the hard journey to come:
