@@ -31,9 +31,7 @@ infoIcon.Glyph = "\uE946"; //Insert here any font code
 
 AppBarButton button = new AppBarButton();
 button.Icon = infoIcon;
-button.Tapped += InfoButton_Tapped;
-button.IsEnabled = true;
-topBarUserControl.AddButton(button);
+//Add it to a command bar or to a custom control
 {% endhighlight %}
 
 Another nice way of inserting an icon is to use pre-defined symbols with the [SymbolIcon](https://msdn.microsoft.com/library/windows/apps/dn252842) class, it uses Segoe MDL2 Assets fonts as source, to find a symbols one just look up in the font file or bookmark [Symbol enum](https://msdn.microsoft.com/library/windows/apps/dn252842) documentation.
@@ -41,9 +39,9 @@ Another nice way of inserting an icon is to use pre-defined symbols with the [Sy
 {% highlight csharp %}
 AppBarButton button = new AppBarButton();
 button.Icon =  new SymbolIcon(Symbol.Help);
-button.Tapped += InfoButton_Tapped;
-button.IsEnabled = true;
-topBarUserControl.AddButton(button);
+//Add it to a command bar or to a custom control
 {% endhighlight %}
+
+> Pro tip: this can be done to TextBlock and other controls, not exactly the same, place &#xCHARHEX; i.e. `&#xE946;` in the TextBlock's text property
 
 Before I go is important to leave this tip I found at [Around Computing](https://muibiencarlota.wordpress.com/2015/07/07/segoe-mdl2/) blog. He mentions [MDL2 Helpers](https://metronuggets.com/2015/05/18/introducing-mdl2-helpers/) and [ScottIsAFool/Mdl2Tool](https://github.com/ScottIsAFool/Mdl2Tool) as alternatives for using typed accessors instead of coding your way into it, worth looking.
