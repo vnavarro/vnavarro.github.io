@@ -1,9 +1,107 @@
 Hi! I'm Vitor Navarro
 ------------
 
+### Professional Experience
+
+**Team Leader - Software Engineer - Taqtile**
+
+*06/2014 to 06/2016 São Paulo, Brazil*
+
+* Delivered iOS and Windows Phone biggest ecommerce companies projects leading teams of 4 to 5 people. Some apps: PontoFrio, CasasBahia, Extra and Pão de Açúcar Cliente Mais, 4 huge brazilian e-commerce companies.
+* Delivering multi-platform native apps for iOS, Windows Phone and Android.
+* Helping deliver better code quality with GitFlow, peers code review and Scrum.
+* Constantly exchanging knowledge through lightning talks, workshops and pair programming.
+
+**Software Engineer - Code Miner 42**
+
+*01/2014 to 04/2014 - São Paulo, Brazil*
+
+* Helped deliver better code quality with Test Driven Development using Rspec and daily peers code review.
+* Oversaw and delivered eCommerce marketplace gateway called AchieveLeap first phase along with another developer.
+
+**Software Engineer - Das Dad**
+
+*10/2012 to 12/2013 - São Paulo, Brazil*
+
+* Helped in planning the design and concept of company product with the initial 5 members.
+* Developed Ruby on Rails services for iOS app prototypes.
+* Developed version 2 of 24horas VEJA.com. Which included: Implemented traffic data integration with Maplink services for exhibition during animated alarm wake up function.
+* Implemented native iOS share for Facebook and Twitter.
+* Implemented text-to-speech for news read and animated alarm wake up using both Acapela and native iOS in 7.0.
+* Helped in implementation of voice recognition with Nuance Dragon SDK for iOS prototypes.
+* Improved iOS apps code quality and reduced bugs generations with: Kiwi and Nocilla (unit test), ObjectiveSugar and short cycle test delivery with TestFlight.
+* Improved iOS apps database organization with Core Data.
+* Helped with candidate selection through elaboration of interview and development tests.
+* Delivered product's chrome extension prototype to help validate some browser concepts and ideas.
+
+**Teacher - Centro Universitário Senac**
+
+*10/2014 to 12/2014 - São Paulo, Brazil*
+
+* Game Engine in specialization course Games: Production and Programming
+
+*02/2013 to 06/2013 - São Paulo, Brazil*
+* Games for mobile phones in specialization course Games: Production and Programming.
+
+**Game Developer - Hive Digital Entertainment**
+
+*10/2011 to 06/2012 - São Paulo, Brazil*
+
+* Worked with development of two games, a total new one and a conversion from a Facebook game to Android.
+* Helped in the creation of proprietary game engine in Java for Android mimicking Hive's pre-existing Flash solutions. Including menu system, screen managing, in-app item shopping integration with Playphone, sprite animation system.
+* Along with other developer, implemented first port version of Candypot Pocket! using the proprietary game engine.
+* Along with other developer, implemented a pet breeding game for SmartTV called Takô Kamis. Including pet fight gameplay, tutorial screens, world map and server API consumption.
+* Improved games final quality through noise reduction between programming, game design and art teams with closer collaboration and communication.
+
+**Mobile Software Developer - Parsec Digital**
+
+*03/2011 to 09/2011 - São Paulo, Brazil*
+
+* Delivered TimeOut Brazil homepage with Sharepoint custom modules.
+Refurbished company website using only Html, CSS and Javascript.
+* Delivered iPad and iPhone version of 2011 Oi Moda Fashion Week app. Implemented along with other developer: event lineup, fashion catalog with Facebook and Twitter integration and server API consumption with RestKit.
+* Implemented some areas of Feira Literaria de Paraty (FLIP) 2011 app. Including event map via Google Map integration, share with Facebook and Twitter integration, database modeling with Core Data.
+* Reduced bugs in Heroku hosted Ruby on Rails applications used by some of the apps. Including Kalassa Seguros and 24Horas VEJA.COM.
+* Helped with custom animations using Core Graphics for Oi Moda Fashion Week, FLIP and 24Horas VEJA.COM.
+* Increased product features delivery reducing wait for beta testing with team collaboration through Scrum.
+
+**Product Developer Analyst - Spring Wireless**
+
+*03/2010 to 03/2011 - São Paulo, Brazil*
+
+* Implemented sales data API access for field operations software.
+* Created sales data API new database models and queries with Entity Framework and Linq.
+Configured IIS7 for local testing and live use of API.
+* Built automation tasks in Team Foundation Server for that API continuous integration.
+Helped reduce bugs in desktop MSI packages and Spring custom mobile provisioning software solution.
+* Elaborated and trained the team with the OWASP security plan for Spring's web products.
+
+**.NET Developer Analyst - Accelera**
+
+*11/2009 to 02/2010 - São Paulo, Brazil*
+
+* Delivered first phase of EHS (Environment, health and security) intranet system for AES Eletropaulo using JQuery, XSLT, HTML and CSS customization of Sharepoint's built in modules.
+
+**.NET Developer Analyst - BDS Soluções e Informações**
+
+*02/2008 to 11/2009 - São Paulo, Brazil*
+
+* Updated ASP.NET financial Social Network project from .NET 1.1 to .NET 2.0.
+* Created Office plugin with VSTO to generate custom filtered spreadsheets with company's financial data.
+* Created internal API with WCF and Entreprise Library to provide financial data on demand.
+Trainned two co-workers in object oriented programming and .NET technologies during 6 months.
+* Delivered solutions for clients with on site support.
+
+**.NET Intern Developer, Microsoft Innovation Center**
+
+*01/2007 to 01/2008, São Paulo, Brazil*
+
+* Delivered web and desktop intranet projects with ASP.NET, C#, WebServices and SQL Server technologies.
+* Included OOXML for Innovation Center Workshops in Innovation Labs study material.
+* Teached oriented object programming classes in C# during Student to Business course (S2B).
 
 
-
+### Education
 **Specialization - Games: Production and Programming. Centro Universitário Senac – São Paulo/SP – Brazil**  
 www.sp.senac.com.br
 
@@ -19,178 +117,17 @@ www.sp.senac.com.br
 Final paper - [Development of Intelligent Traffic Lights using Multi-Agent Systems](https://www.academia.edu/772203/DEVELOPMENT_OF_INTELLIGENT_TRAFFIC_LIGHTS_USING_MULTI-AGENT_SYSTEMS)  
 Published at XXIII ANPET - Education and Transportation Research Congress and WCTR 2010 Lisbon (World Conference of Transportation Research)
 
-###**Languages**
+#### Languages
 
 * Portuguese (native language)
 * English
 * Studying French
+* Basic Spanish
 
-###**App portfolio**
+### A little bit more
 
-* [24horas VEJA.com](http://veja.abril.com.br/24horas/ http://vimeo.com/34207243)  
-* [Pontofrio.com](https://itunes.apple.com/br/app/pontofrio.com/id414724783?mt=8)  
-* [Extra.com](https://itunes.apple.com/br/app/extra.com.br/id430650221?mt=8)  
-
-###**Game portfolio**
-
-* [Candypot Pocket!](https://market.android.com/details?id=com.playphone.games.candypot) – Launched for Android during my time at Hive. Made in Java.
-* [Wiggle Wiggle Wiggle](http://globalgamejam.org/2015/games/wiggle-wiggle-wiggle) - My team's entry for GlobalGameJam 2015 themed "What you gonna do now". Made with Unity.
-* [A Momo's Life](http://spjam.com.br/jogos/a_momos_life) - Entry of my team for SPJAM 2014, a game jam that takes place in São Paulo - Brazil once a year. Made with Unity.
-* [Prinspirit](http://globalgamejam.org/2014/games/prinspirit) -  My team's entry for GlobalGameJam 2014 themed 'We don't see things as they are, we see them as we are.”
-* [Puzzle Revenge](https://dl.dropboxusercontent.com/u/14137502/PuzzleRevenge/index.html) – Winner of 2013 FirefoxOS Hackathon 1st place on professional category. Made with Javascript and some libs.
-* [O caminho de Selina (Selina's path)](http://spjam.com.br/jogos/selina) – Entry of my team for SPJAM 2013, a game jam that takes place in São Paulo - Brazil once a year. Made with CoronaSDK and ported to Unity.
-* [Zombvolution](https://www.google.com/url?q=https%3A%2F%2Fdl.dropbox.com%2Fu%2F14137502%2Fld_evolution%2Ffinal%2Fzombvolution.html&sa=D&sntz=1&usg=AFQjCNFb_w5UsZaiSwNim3pGyFOq0wvFmA) – Made in 48 hours using a Ludum Dare theme. Made with Construct2
-
-If you'd like to see my unpolishe quick ideas and prototypes, you can access One Game a Month [here](http://www.onegameamonth.com/vitor_navarro)
-
-###**Professional Experience**
-
-*06/2014 Taqtile - Software Engineer*  
-Seattle based software company, which provides engaging consumer experiences for smartphone and tablet platforms, in the retail, sports and entertainment markets.  
-
-
-* Scrum master in teams of 4+ people.
-* Daily peers code review.
-* Use of top notch technology to create apps.
-* CI with Travis and HockeyApp.
-* App development for iOS with Objective-C.
-* App development for Windows Phone (C#) and Android (Java).
-
-
-
-*10/2014 - 12/2014 Centro Universitário Senac - Teacher*  
-Teached: Game Engine in Games: Production and Programming.
-Subjects presented:
-
-
-* History
-* Architecture
-* How to choose one
-* Presented use of game engine and architecture ideas with Unity
-
-
-*01/2014 - 04/2014 Code Miner 42 - Software Engineer*  
-Software company focused on web applications and services.
-
-
-* Daily peers code review.
-* All projects are developed with TDD using rspec and factory girl gems. We are encouraged to focus on code quality above anything, so every project should be properly tested.
-* Background workers with sidekiq and redis.
-
-*10/2012 – 12/2013 Das Dad - Software Developer*  
-Technology Startup. Its goal is to transform cloud data into meaningful content following user's preferences.
-
-
-* API development with Ruby On Rails;
-* Native app development for iOS. 24horas VEJA.com
-* Integration with external API's, like Facebook, Twitter and Maplink
-* Unit Test using Kiwi and Nocilla
-* Cocoa Pods for framework organization and project boost
-* Code quality care, we used ObjectiveSugar to make this happen
-* User tests with TestFlight
-* Using Storyboard on some newest apps to experiment the new feature
-* Non-relational data with Core Data
-* Custom animations with Core Graphics
-* Voice recognition with Nuance Dragon SDK
-* Text-to-speech with Acapela for iPhone/iPad and iOS 7 native SDK
-* Product concept design with the team
-* Hiring management
-* Daily meetings and Kanban with Trello
-* Social psychology studies
-
-*02/2013 – 06/2013 Centro Universitário Senac - Teacher*  
-Teached: Games for mobile phones in Games: Production and Programming.  
-Subjects presented:
-
-
-* Difference between mobile devices and other platforms
-* Difference between games for mobile and games for other platforms
-* Presentation about game’s market
-* Game Design concepts for mobile device games
-* Mobile device technical capabilities and limitations
-* Tools for programming/art/sound/design
-* Applying game programming techniques in mobile games
-* Programming with Lua and CoronaSDK
-* Using data base with games
-* Using device sensors with games
-* Exam: game creation project.
-
-*10/2011 – 06/2012 Hive Digital Entertainment - Android Game developer*  
-Digital Agency and Game Studio  
-Worked with development of two games, a total new one and a conversion from a Facebook game to Android. One has launched Candypot Pocket!
-
-
-* Proprietary game engine in Java for Android.
-* Game creation using proprietary game engine.
-* Direct interaction with art and game design teams
-* Created animation mecanism similar to the one developed in Flash for Hive previous games
-* Playphone SDK integration on Candypot Pocket! first version
-* Multiple resolution images management
-
-*03/2011 - 09/2011 Parsec Digital - Mobile and Web Developer*
-Techonology startup focused on deliver awesome customer experience through clients projects. Terminated it ́s activities in 2012.  
-
-
-
-* Company website with HTML+JSS+CSS
-* Native apps for iOS
-* Ruby On Rails api maintenance
-* Heroku deployment and management
-* Facebook and Twitter api integration through their SDK's
-* Using RestKit to make API integration easier
-* Custom animations with Core Graphics
-* Core Data for data storage
-* User tests with TestFlight
-
-
-*03/2010 – 03/2011 Spring Wireless - Product Developer Analyst*  
-Corporate mobile solutions and custom projects.  
-
-
-* Close working with Planning team
-* Work with C# and ASP.NET on product maintenance and product creation.
-* APIs access created with Web Services
-* IIS configuration
-* Used Entity Framwork and Linq to access data
-* Team Foundation Server for source control and for build automation
-* Elaboration and operation of OWASP security plan in web products
-
-*11/2009 – 02/2010 - Accelera - .NET Developer Analyst*  
-Custom projects software company.  
-
-
-* EHS (Environment, health and security) for AES Eletropaulo intranet with Sharepoint customization
-JQuery/Javascript and XSLT programming for Sharepoint client interface
-* Style customization in Sharepoint with HTML and CSS
-* New modules for Sharepoint with ASP.NET and C#
-
-*02/2008 - 11/2009 - BDS Soluções e Informações - .NET Developer Analyst*  
-Stocks market and financial software company.  
-
-
-* Worked in stocks market social network product
-* Product new features and maintenance with ASP.NET e C#
-* Queries with SQL in SQL Server database
-* Visual Studio customizations with VSTO
-* Service creation with Web Services and WCF
-* IIS configuration for WCF
-* Junior coleagues training during 6 months
-* Client on site support
-
-*01/2007 - 01/2008 – Microsoft Innovation Center - .NET Internship Programmer*  
-The Innovation Center goal is to spread .NET technologies among students and professionals.  
-
-
-* Web and desktop projects with ASP.NET and C#
-* API with web services
-* Creation of Innovation Labs study material about OOXML
-* Teached programming classes on Student to Business (S2B)
-* SQL queries in SQL Server database
-
-###**A little bit more**
-
-Other know programming languages: Lua, Python, C, ActionScript, Javascript;  
-Some game engines I’m familiar with: Unity3D, Love2D, Phaser, Cocos2dx, HaxelFlixel;  
-Some other non mentioned tools that I like: SublimeText, iTerm, tmux,  Gimp, Sketchbook Pro, Illustrator, Tiled, Texture Packer, Prezi, Evernote, Pocket and G2Reader;  
-In love with quality in product creation, things like Git-flow, TDD, design patterns (code), design excellence (visual), strong UX, material design (Android);  
-A little bit of machine virtualization with vagrant.  
+* Other know programming languages: Lua, Python, C, ActionScript, Javascript;  
+* Some game engines I’m familiar with: Unity3D, Love2D, Phaser, Cocos2dx, HaxelFlixel;  
+* Some other non mentioned tools that I like: SublimeText, iTerm, tmux,  Gimp, Sketchbook Pro, Illustrator, Tiled, Texture Packer, Prezi, Evernote, Pocket and G2Reader;  
+* In love with quality in product creation, things like Git-flow, TDD, design patterns (code), design excellence (visual), strong UX, material design (Android);  
+* A little bit of machine virtualization with vagrant.  
