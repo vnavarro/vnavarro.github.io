@@ -6,6 +6,11 @@ layout: default
   <!-- <h1 class="page-heading">Posts</h1> -->
   <div class="row">
     <div class="col-sm-9 col-centered">
+      <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-9 col-centered">
       <ul class="post-list">
         {% for post in site.posts %}
         <li>
@@ -17,31 +22,6 @@ layout: default
         </li>
         {% endfor %}
       </ul>
-
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-9 col-centered">
-      <p class="rss-subscribe">Also check my other blogs:</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-9 col-centered">
-      <ul>
-        <li>
-          <a class="raleway-bold link-medium"
-            href="https://game2nextlevel.wordpress.com/">
-            Next Level - Game Development
-          </a>
-        </li>
-        <li>
-          <a class="raleway-bold link-medium"
-            href="http://life-box-of-chocolates.tumblr.com">
-            life, a box of chocolates - My take on life subjects
-          </a>
-        </li>
     </div>
   </div>
 </div>
