@@ -3,11 +3,8 @@ layout: post
 comments: true
 title:  "[Be a better pro] Taking notes"
 date:   2016-07-07 10:31:00
-categories: better-pro sketchnote
-tags:
-  - better-pro
-  - taking notes
-  - sketchnote
+category: Self-improvement
+tags: [better-pro, taking notes, sketchnote, mental modelling]
 ---
 
 Take notes is harder than it looks, the problem is not in the action of taking notes itself, but in making actual useful notes, that once back to them you understand whatever was the thing in need to be remembered later.

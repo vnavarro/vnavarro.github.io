@@ -3,11 +3,8 @@ layout: post
 comments: true
 title:  "[DevTools] Importing non-gradle projects: JitPack"
 date:   2015-12-02 19:50:00
-categories: tools java jitpack
-tags:
-  - tools
-  - jitpack
-  - java
+category: Development
+tags: [devtools, jitpack, java]
 ---
 
 When comes down to using dependencies in Java/Android projects, Gradle is, at the writing of this post, the most useful tool around.

@@ -265,6 +265,80 @@
   float:left;
   width:220px;
 }
+
+/**
+ * Tag icons
+ */
+
+.post-tag {
+	display: inline-block;
+	background: #f5f5f5;
+	padding: .25rem .5rem;
+	margin-right: .5rem;
+	border-radius: 4px;
+	color: #6a9fb5;
+	font-size: 90%;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+  text-decoration: none !important;
+}
+
+a.post-tag {
+  &:hover, &:focus {
+      color: #fff;
+      background:#0d4258;
+  }
+}
+
+.post-tag::before {
+    content: "\f02b";
+    font-family: FontAwesome;
+    padding-right: .5em;
+}
+
+.post-list-bytags-title::before {
+    @extend .post-tag::before;
+}
+
+.post-category {
+  @extend .post-tag;
+  color: #999;
+  background: none;
+  font-size: 110%;
+}
+
+a.post-category {
+  &:hover, &:focus {
+    color: #0d4258;
+    background:none;
+  }
+}
+
+.post-category::before {
+    content: "\f00b";
+    font-family: FontAwesome;
+    padding-right: .5em;
+}
+
+.post-list-bycategory-title::before {
+    @extend .post-category::before;
+}
+
+
+a.post-category {
+  @extend a.post-tag;
+}
+
+/**
+* Tags cloud
+**/
+.tags-cloud {
+  .post-tag {
+    margin: .2em .3em;
+  }
+}
+
 /**
 * About
 **/

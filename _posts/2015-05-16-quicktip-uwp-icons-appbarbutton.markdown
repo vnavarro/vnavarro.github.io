@@ -3,12 +3,8 @@ layout: post
 comments: true
 title:  "[QuickTips] Universal Windows Platform - Using Icons with AppBarButton"
 date:   2016-05-16 20:26:00
-categories: quicktips uwp icons AppBarButton
-tags:
-  - quicktips
-  - uwp
-  - Icons
-  - AppBarButton
+category: Development
+tags: [quicktips, uwp, Icons, AppBarButton, windows phone]
 ---
 
 **Hey listen!** First post with Windows apps development subject, more specifically speaking UWP development. Since Windows 10 things got mixed. Well, let's get to the point...

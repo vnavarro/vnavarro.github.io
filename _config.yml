@@ -16,3 +16,9 @@ lattes: http://lattes.cnpq.br/0355427112060666
 markdown: kramdown
 # kramdown:
 #   input: GFM
+
+# Pagination turns off permalink :(
+# paginate: 10
+#
+# # Gems
+# gems: [jekyll-paginate]

@@ -3,11 +3,8 @@ layout: post
 comments: true
 title:  "[QuickTips] Using Disqus in your Jekyll Blog"
 date:   2016-02-12 20:33:00
-categories: disqus jekyll blog
-tags:
-  - disqus
-  - jekyll
-  - blog
+category: Development
+tags: [disqus, jekyll, blog, web]
 ---
 
 This one will be blazing fast read, at least here. Instead of going all verbose on what I did lets link the places where I got the information from on how to use **[Disqus](http://disqus.com/) + [Jekyll](https://jekyllrb.com/)**.

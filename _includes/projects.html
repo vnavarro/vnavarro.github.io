@@ -32,24 +32,29 @@
     <div id='apps'>
       <div class='row'>
 
+        {% include box_item.html title="Starbucks" description="App for Starbucks clients to order and pay digitally, it also includes Rewards program display." windows="https://www.microsoft.com/en-us/store/p/starbucks/9nblggh4wb02" img="https://store-images.s-microsoft.com/image/apps.4736.13510798887525589.bc6af866-b4d2-4128-b172-be9a7ddf2b6d.4815bf4a-e23c-4418-9e2a-e93544e20bb4?w=180&h=180&q=60" %}
 
         {% include box_item.html title="Pão de Açúcar Mais" description="App for the subscribed clients of the Mais program from Pão de Açúcar retailer." android="https://play.google.com/store/apps/details?id=br.com.paodeacucarmais&hl=pt_BR" img="https://lh3.googleusercontent.com/oQ2FuDff1fmds4wneT-8KlxcOuofKKiellyO9HeQaisxqo9M7vtkxuVgU1V0AZS-mK_W=w300" %}
 
         {% include box_item.html title="Pontofrio.com" description="Personalized app version of online e-commerce for PontoFrio store." appstore="https://itunes.apple.com/br/app/pontofrio.com/id414724783?mt=8"   img="http://cdn.marketplaceimages.windowsphone.com/v8/images/7835e7a4-bf6e-49bd-b128-151ba946d242?imageType=ws_icon_large" %}
 
-        {% include box_item.html title="Extra.com" description="Extra's tailor made mobile store." appstore="https://itunes.apple.com/br/app/extra.com.br/id430650221?mt=8"  windows="https://www.microsoft.com/pt-br/store/apps/extracombr/9nblggh084l9" img="https://store-images.s-microsoft.com/image/apps.64735.13510798882842610.bb92ca87-f226-439d-83e5-d1ee0ee900c1.bc55e520-68a1-48a2-b11b-fed606e684cc?w=191&h=191" %}
-
       </div>
       <div class='row'>
+
+        {% include box_item.html title="Extra.com" description="Extra's tailor made mobile store." appstore="https://itunes.apple.com/br/app/extra.com.br/id430650221?mt=8"  windows="https://www.microsoft.com/pt-br/store/apps/extracombr/9nblggh084l9" img="https://store-images.s-microsoft.com/image/apps.64735.13510798882842610.bb92ca87-f226-439d-83e5-d1ee0ee900c1.bc55e520-68a1-48a2-b11b-fed606e684cc?w=191&h=191" %}
+
+
 
         {% include box_item.html title="CasasBahia.com" description="One of the most iconic brazilian retailers has it store gone mobile." appstore="https://itunes.apple.com/br/app/casas-bahia/id430647496?mt=8"  windows="https://www.microsoft.com/pt-br/store/apps/casas-bahia/9nblgggz1nxj" img="https://store-images.s-microsoft.com/image/apps.16048.13510798883829975.3f8186ee-6b05-43c0-857f-85c2755d200f.2e6cb522-4870-46d8-a0c5-b588f99f075f?w=191&h=191" %}
 
         {% include box_item.html title="24 horas VEJA.com" description="Das Dad and VEJA.com amazing watch that read the news, user's agenda, friend's birthdays, local traffic and weather using a pleasant voice. Unfortunately it is a discontinued product." img="http://a2.mzstatic.com/us/r30/Purple4/v4/09/93/ee/0993eed9-fa34-3b97-97a6-b2e482e3dd0f/mzl.dhbgnzip.175x175-75.jpg" video="https://vimeo.com/139926657" video_text="Watch it working"%}
 
-        {% include box_item.html title="Oi Moda" description="Oi Moda was built for 2011 Fashion Week season and features news live feed, live streaming, lineup schedule, lookbook gallery and sharing on twitter, Facebook and Foursquare. Besides that it has a gorgeous look and feel." img="http://dl.dropbox.com/u/14137502/site/oimodaiPad01.jpg" %}
-
       </div>
       <div class='row'>
+
+        {% include box_item.html title="Oi Moda" description="Oi Moda was built for 2011 Fashion Week season and features news live feed, live streaming, lineup schedule, lookbook gallery and sharing on twitter, Facebook and Foursquare. Besides that it has a gorgeous look and feel." img="http://dl.dropbox.com/u/14137502/site/oimodaiPad01.jpg" %}
+
+
 
         {% include box_item.html title="FLIP" description="FLIP stands for Paraty International Literary Festival. This project was custom made for FLIP and contains sharing (Twitter, Foursquare and Facebook), map kit, event schedule, art gallery and marketing video features." img="https://dl.dropboxusercontent.com/u/14137502/site/flip01.jpg" appstore="http://itunes.apple.com/br/app/flip2011/id444331340?mt=8"%}
       </div>
@@ -66,7 +71,7 @@
       </div>
 
 <div class='row'>
-  {% include box_item.html title="Puzzle Revenge" img="https://dl.dropboxusercontent.com/u/14137502/site/puzzlerevenge.png" description="Help the angry cossack to send the puzzle pieces back to it's place, away from his country.<br/>This game was made by me and my friend Rogério Rennó (Artist) and won the 1st prize at Firefox OS Hackathon 2013 on professional category." more="https://dl.dropboxusercontent.com/u/14137502/PuzzleRevenge/index.html" more_content="Play web version" %}
+  {% include box_item.html title="Puzzle Revenge" img="https://dl.dropboxusercontent.com/u/14137502/site/puzzlerevenge.png" description="Help the angry cossack to send the puzzle pieces back to it's place, away from his country.<br/>This game was made by me and my friend Rogério Rennó (Artist) and won the 1st prize at Firefox OS Hackathon 2013 on professional category." more="https://dl.dropboxusercontent.com/u/14137502/PuzzleRevenge/index.html" more_content="Play web version (Firefox Only)" %}
   <div class="col-sm-4">
     <div class='light-box-shadow'>
       <div class='project-item-img'
@@ -84,9 +89,9 @@ Or if you want to see source code go ahead and donwload from my
 <a href="https://github.com/vnavarro/AgePop">github repository</a>
 </br>
 </br>
-<a class='raleway-semibold' href=''>
+<!-- <a class='raleway-semibold' href=''>
   MORE
-</a>
+</a> -->
 </p>
 </div>
 </div>
@@ -103,9 +108,9 @@ Or if you want to see source code go ahead and donwload from my
   Or if you want to see source code go ahead and donwload from my <a ref='https://github.com/vnavarro/hexagon_defenders'>github repository</a>
 </br>
 </br>
-<a class='raleway-semibold' href=''>
+<!-- <a class='raleway-semibold' href=''>
   MORE
-</a>
+</a> -->
 </p>
 </div>
 </div>
@@ -132,9 +137,9 @@ Or if you want to see source code go ahead and donwload from my
       Or if you want to see source code go ahead and donwload from my <a href="https://github.com/vnavarro/SnakeGame">github repository</a>
     </br>
   </br>
-  <a class='raleway-semibold' href=''>
+  <!-- <a class='raleway-semibold' href=''>
     MORE
-  </a>
+  </a> -->
   </p>
   </div>
   </div>
@@ -151,9 +156,9 @@ Or if you want to see source code go ahead and donwload from my
       <a href="http://roguerunner.herokuapp.com/">Click to play</a>
     </br>
   </br>
-  <a class='raleway-semibold' href=''>
+  <!-- <a class='raleway-semibold' href=''>
     MORE
-  </a>
+  </a> -->
 </p>
 </div>
 </div>
@@ -171,9 +176,9 @@ Or if you want to see source code go ahead and donwload from my
     Or if you want to see source code go ahead and donwload from my <a href="https://github.com/vnavarro/portcullis">github repository</a>
   </br>
 </br>
-<a class='raleway-semibold' href=''>
+<!-- <a class='raleway-semibold' href=''>
   MORE
-</a>
+</a> -->
 </p>
 </div>
 </div>
@@ -193,9 +198,9 @@ Or if you want to see source code go ahead and donwload from my
   <a href="https://dl.dropbox.com/u/14137502/ld_evolution/final/zombvolution.html">Click to play</a>
 </br>
 </br>
-<a class='raleway-semibold' href=''>
+<!-- <a class='raleway-semibold' href=''>
   MORE
-</a>
+</a> -->
 </p>
 </div>
 </div>

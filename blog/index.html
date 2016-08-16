@@ -1,12 +1,45 @@
 ---
 layout: default
 ---
+{% comment %}
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+  {% assign ttags = post.tags | join:'|' | append:'|' %}
+  {% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
 
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+  {% if tag != "" %}
+    {% if tags == "" %}
+      {% assign tags = tag | split:'|' %}
+    {% endif %}
+    {% unless tags contains tag %}
+      {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
 <div class="container-fluid page-container">
   <!-- <h1 class="page-heading">Posts</h1> -->
   <div class="row">
     <div class="col-sm-9 col-centered">
       <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-9 col-centered tags-cloud">
+      <p><span class="font-normal big-size-text">Filter by</span><a href="/blog/categories" class="post-category"> Categories </a> &nbsp;&nbsp;
+      <a href="/blog/tags" class="post-tag"> Tags </a> </p>
     </div>
   </div>
   <div class="row">
@@ -18,6 +51,11 @@ layout: default
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            {% if post.tags != empty %}
+              {% for tag in post.tags %}
+              <a class="post-tag" href="/blog/tags/#{{ tag | slugify }}">{{ tag }}</a>
+              {% endfor %}
+            {% endif %}
           <p>{{ post.excerpt }}<a class="link" href="{{ post.url | prepend: site.baseurl }}"> more...</a></p>
         </li>
         {% endfor %}

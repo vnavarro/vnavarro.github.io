@@ -3,11 +3,8 @@ layout: post
 comments: true
 title:  "[Off-topic] My first Taqtile Anniversary"
 date:   2015-06-09 19:39:00
-categories: offtopic
-tags:
-  - offtopic
-  - taqtile
-  - anniversary
+category: Off-topic
+tags: [taqtile, anniversary, review]
 ---
 Is unusual for me to celebrate and even review the places I work in my anniversaries.
 

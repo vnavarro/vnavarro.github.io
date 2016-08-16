@@ -3,10 +3,8 @@ layout: post
 comments: true
 title:  "[A programmer's journey] Rust quest - day 4"
 date:   2015-05-04 23:22:00
-categories: journey rust
-tags:
-  - journey
-  - rust
+category: Development
+tags: [journey, rust, programming languages]
 ---
 Continuing our journey lets try more on functions, until now they were plain simple, we just had the main sample.
 

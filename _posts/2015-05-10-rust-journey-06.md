@@ -3,10 +3,8 @@ layout: post
 comments: true
 title:  "[A programmer's journey] Rust quest - day 6"
 date:   2015-05-10 11:40:00
-categories: journey rust
-tags:
-  - journey
-  - rust
+category: Development
+tags: [journey, rust, programming languages]
 ---
 For us to go further and start creating sample solutions in Rust extending to
 its parts that we don't know yet we must finish the basics side quests.

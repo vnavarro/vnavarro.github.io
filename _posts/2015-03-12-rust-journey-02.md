@@ -3,10 +3,8 @@ layout: post
 comments: true
 title:  "[A programmer's journey] Rust quest - day 2"
 date:   2015-03-12 12:18:00
-categories: journey rust
-tags:
-  - journey
-  - rust
+category: Development
+tags: [journey, rust, programming languages]
 ---
 Before continuing through learning Rust I hit a wall, I had everything I need installed last time and it was enough.... right?
 

@@ -3,10 +3,8 @@ layout: post
 comments: true
 title:  "[DevTools] Alternatives to cross-platform on mobile: j2ObjC"
 date:   2015-06-16 11:44:00
-categories: cross-platform j2objc
-tags:
-  - cross-platform
-  - j2objc
+category: Development
+tags: [cross-platform, j2objc, java, android, ios]
 ---
 From time to time adding new options to back your solutions and ideas is a good practice and may also be refreshing.
 

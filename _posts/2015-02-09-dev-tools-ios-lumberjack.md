@@ -3,11 +3,8 @@ layout: post
 comments: true
 title:  "[DevTools] Logging on OSX/iOS with CocoaLumberjack"
 date:   2015-02-09 14:00:00
-categories: devtools logging
-tags:
-  - cocoalumberjack
-  - devtools
-  - log-in-ios/osx
+category: Development
+tags: [devtools, logging, cocoalumberjack, ios]
 ---
 It's not uncommon that a developer has a stack of tools, in fact is quite common to see multiple stacks of choice for each different set of technologies.  
 I find it to be curious that we aren't used to share and discuss the whole stack, from our machine, through the programming language, to the server configuration, there are lots of handful decisions, tricks, new tools, and all sort of hidden knowledge locked in the dark corners of our heads.

@@ -3,13 +3,8 @@ layout: post
 comments: true
 title:  "[QuickTips] Ignoring default margin in iOS Autolayout"
 date:   2015-02-26 11:12:00
-categories: quicktips ios autolayout
-tags:
-  - autolayout
-  - ios
-  - quicktips
-  - quickcast
-  - margins
+category: Development
+tags: [autolayout, ios, quicktips, quickcast, margins]
 ---
 Apple added default margins to views in the latest iOS version (iOS 8). Is somewhat a helping feature that turns to be a pain when you don't know how to shut it down.
 
