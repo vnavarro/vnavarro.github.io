@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "[Quickies] Presenting: Google's Material Design"
+title:  "[Quicktips] Presenting: Google's Material Design"
 date:   2015-06-23 19:39:00
 category: Design
 tags: [material design, google, mobile, android]
