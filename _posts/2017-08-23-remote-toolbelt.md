@@ -11,7 +11,7 @@ Being a remote developer isn't an easy task and as such having tools to make thi
 
 Deciding which tools can be time consuming so instead of rushing to find them by yourselves I'd like to leave here this list from [Laila](http://www.remotestarterkit.com/?ref=producthunt) and a review for some of them from myself.
 
-#Slack
+## Slack
 
 Best features:
 
@@ -26,7 +26,7 @@ Downside:
 * File limit, which is removed/increased once you have payed
 * No "hangouts" with multiple users unless payed
 
-#Trello
+## Trello
 
 Best features:
 
@@ -42,7 +42,7 @@ Downside:
 * Web only, no internet no app
 * No calendar or gantt or any other management control
 
-#Toogl
+## Toggl
 
 Best features:
 
@@ -56,7 +56,7 @@ Downside:
 * Have to type tasks
 *
 
-#Google Drive
+## Google Drive
 
 Best features:
 
@@ -68,4 +68,30 @@ Downside:
 
 * The folder organization in really confusing
 * The sharing system is also bad
-* 
+* Size limit
+* No encryption
+
+## appear.in
+
+Best features:
+
+* Free (with possibility of premium version)
+* Web and iOS
+* Good connection and stability
+* Screen share
+* Private rooms
+
+Downside:
+
+* iOS app only
+* 8 people per room on free version
+
+## My choices
+
+* Communication: Slack + appear.in
+* Organization: Toggl + Trello
+* Documents and Presentations: Prezi + Evernote + GDocs spreadsheets
+
+Although I have my personal preference we are experimenting at my current remote team and I will come with further review of our toolchain.
+
+See ya.
