@@ -10,11 +10,11 @@ layout: default
         <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         <p>
-          <a href="/blog/categories/#{{ page.category | slugify }}" class="post-category" > {{ page.category }} </a> &nbsp;&nbsp;
+          <a href="/blog/categories#{{ page.category | slugify }}" class="post-category" > {{ page.category }} </a> &nbsp;&nbsp;
         </p>
         <p>
           {% for tag in page.tags %}
-          <a class="post-tag" href="/blog/tags/#{{ tag | slugify }}">{{ tag }}</a>
+          <a class="post-tag" href="/blog/tags#{{ tag | slugify }}">{{ tag }}</a>
           {% endfor %}
         </p>
       </div>
