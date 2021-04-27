@@ -26,6 +26,16 @@ export const Container = styled.div`
   `}
 `;
 
+export const AvatarContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  max-width: var(--width-container);
+  margin: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+`;
+
 export const LogoLink = styled(LocalizedLink)`
   display: inline-block;
   margin-right: 0.5rem;

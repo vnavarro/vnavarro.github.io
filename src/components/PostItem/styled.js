@@ -34,6 +34,7 @@ export const PostItemImg = styled(Img)`
 `;
 
 export const PostItemInfo = styled.div`
+  color: var(--post-item-text);
   display: flex;
   flex-direction: column;
   padding: calc(var(--space) * 1.5) var(--space);

@@ -22,7 +22,7 @@ export const LanguageItem = styled.li`
 export const LanguageLink = styled(Link)`
   display: inline-block;
   margin-right: 0.5rem;
-  color: var(--gray);
+  color: var(--text-disabled);
   font-size: 1.4rem;
   text-decoration: none;
 

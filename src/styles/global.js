@@ -77,36 +77,45 @@ const GlobalStyles = createGlobalStyle`
   }
 
   :root { 
+    --dark-blue: #3675b3;
+    --light-blue: #4da6ff;
+    --light-pink: #ff4d8b;
+    --dark-pink: #b33662;
+    --bright-yellow: #fff04d;
+
     --gray-extra-light: #eaeaea; 
     --gray-light: #747d8d;  
     --gray: #475060;
     --gray-dark: #2e333e;
 
-    --primary-color: #0066f9;
-    --secondary-color: #2e333e;
-    --thirdy-color: #001ff9;
+    --primary-color: var(--dark-pink);//#0066f9;
+    --secondary-color: #ffffff;//var(--light-blue);//#2e333e;
+    --thirdy-color: var(--brigh-yellow);#001ff9;
 
     --body-bg: #FFFFFF; 
 
-    --bg-light: var(--gray-extra-light);
-    --bg-dark: var(--gray-dark);
+    --bg-light: var(--light-pink);
+    --bg-dark: var(--dark-pink);
 
     --border-light: var(--gray-light);
     --border-dark: var(--gray-dark);
     
     --link-color: var(--primary-color);
     --link-color-hover: var(--thirdy-color);
+    
+    --text-color: var(--dark-blue);
+    --text-light:var(--light-blue);
+    --text-dark: var(--dark-pink);
+    --text-disabled: var(--gray-dark);
+    --post-item-text: #ffffff;
 
-    --text-color: var(--gray);
-    --text-light:var(--gray-light);
-    --text-dark: var(--gray-dark);
+    --nav-link: #ffffff;
 
     --width-container: 1040px;
 
     --space: 2rem;
     --space-sm: 1rem;
     --space-lg: 3rem;
-
   }
 `;
 export default GlobalStyles;

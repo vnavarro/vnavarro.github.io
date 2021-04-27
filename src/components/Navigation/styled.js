@@ -14,7 +14,8 @@ export const Navigation = styled.nav`
 `;
 
 export const NavigationLink = styled(LocalizedLink)`
-  color: var(--text-dark);
+  font-size: large;
+  color: var(--nav-link);
   text-decoration: none;
   position: relative;
   padding: 0 var(--space-sm);

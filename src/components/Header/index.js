@@ -4,6 +4,7 @@ import Navigation from '../Navigation';
 import Languages from '../Languages';
 import ButtonMenu from '../ButtonMenu';
 import Logo from '../Logo';
+import HeaderTitle from '../HeaderTitle';
 
 import { useMenu } from '../../hooks/menu';
 
@@ -15,10 +16,11 @@ const Header = () => {
 
   return (
     <S.HeaderWrapper>
-      <S.Container>
-        <S.LogoLink to="/" title={home} aria-label={home}>
+      <S.Container>        
+        <S.AvatarContainer>  
           <Logo />
-        </S.LogoLink>
+          <HeaderTitle />
+        </S.AvatarContainer>
 
         <S.NavLanguages>
           <Languages />
