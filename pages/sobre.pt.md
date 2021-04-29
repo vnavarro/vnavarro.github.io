@@ -1,23 +1,50 @@
 ---
-title: 'Sobre'
-date: 2019-07-01 01:21:23
+title: ''
+date: 2021-04-28 19:03:00
 page: true
 ---
 
-### O que é o Lorem Ipsum?
+## Quem sou eu?
 
-O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+> A vida não é uma corrida, e sim uma jornada, devemos saborear todos os instantes dela.
 
-### Porque é que o usamos?
+> O universo não tem obrigação de fazer sentido para você. Neil deGrasse Tyson
 
-É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de "Conteúdo aqui, conteúdo aqui", tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por "lorem ipsum" irá encontrar muitos websites ainda na sua infância. Várias versões têm evoluído ao longo dos anos, por vezes por acidente, por vezes propositadamente (como no caso do humor).
+> Seja você mesmo. Todas as outras personalidades já têm dono. Oscar Wilde
 
-### De onde é que ele vem?
+### Desenvolvedor de software, Palestrante, Professor, Escritor, Podcaster
 
-Ao contrário da crença popular, o Lorem Ipsum não é simplesmente texto aleatório. Tem raízes numa peça de literatura clássica em Latim, de 45 AC, tornando-o com mais de 2000 anos. Richard McClintock, um professor de Latim no Colégio Hampden-Sydney, na Virgínia, procurou uma das palavras em Latim mais obscuras (consectetur) numa passagem Lorem Ipsum, e atravessando as cidades do mundo na literatura clássica, descobriu a sua origem. Lorem Ipsum vem das secções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), por Cícero, escrito a 45AC. Este livro é um tratado na teoria da ética, muito popular durante a Renascença. A primeira linha de Lorem Ipsum, "Lorem ipsum dolor sit amet..." aparece de uma linha na secção 1.10.32.
+O curioso, faz tudo, pau para toda obra. 🧑🏽‍🚀
 
-O pedaço mais habitual do Lorem Ipsum usado desde os anos 1500 é reproduzido abaixo para os interessados. As secções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" do Cícero também estão reproduzidos na sua forma original, acompanhados pela sua tradução em Inglês, versões da tradução de 1914 por H. Rackham.
+Seguem alguns pontos pessoais.
 
-### Onde posso arranjar algum?
+* Entusiasta de tecnologia. 👨🏽‍💻
+* Devorador de livros, video games e board games. 👾
+* Vamos conversar? Alguns temas que gosto são psicologia, sociologia, política, HQ, filmes, séries e animações. 💬
+* Não gosto de futebol, mas pedalar, jogar um squash, nadar e até jogar basquete é comigo mesmo. 🏀
+* Já saltei de paraquedas e matei escorpiões. 🦂
+* Escrevo sobre tudo que me interessa. 📚
+* Eu simplesmente amo viajar, entrar em contato com outras pessoas e culturas é sensacional! 🧳
+* Às vezes eu desenho, às vezes toco piano. 🎹
+* Game jammer, ex: participei de diversos eventos de criação de games de curta duração. Eu sou simplesmente apaixonado por fazer games. 🎮
+* Ah e eu prefiro o chá do que café, sim eu sou programador e prefiro chá 🍵 🤷🏽‍♂️.
 
-Existem muitas variações das passagens do Lorem Ipsum disponíveis, mas a maior parte sofreu alterações de alguma forma, pela injecção de humor, ou de palavras aleatórias que nem sequer parecem suficientemente credíveis. Se vai usar uma passagem do Lorem Ipsum, deve ter a certeza que não contém nada de embaraçoso escondido no meio do texto. Todos os geradores de Lorem Ipsum na Internet acabam por repetir porções de texto pré-definido, como necessário, fazendo com que este seja o primeiro verdadeiro gerador na Internet. Usa um dicionário de 200 palavras em Latim, combinado com uma dúzia de modelos de frases, para gerar Lorem Ipsum que pareçam razoáveis. Desta forma, o Lorem Ipsum gerado é sempre livre de repetição, ou de injecção humorística, etc.
+### Perfil profissional
+
+* Bacharel em Ciência da Computação e Pós-Graduado em Jogos: Produção e Desenvolvimento.
+* Trabalhando com iOS (Swift) e Android (Kotlin).
+* Já passei por vários tipos de produtos diferentes. Intranet, desktop apps, back-end, mobile apps e jogos.
+* Já lecionei workshops, incluindo um de iOS, e fui professor das disciplinas de game engine e jogos para mobile no mesmo curso de pós que me formei.
+  
+### Contato
+
+Aqui estão minhas redes, para conversar ou quem sabe trabalharmos juntos.
+
+[Linkedin](https://www.linkedin.com/in/vnavarro87/)
+[Github](https://github.com/vnavarro)
+[Twitch](https://www.twitch.tv/vitor_navarro)
+[Twitter](https://twitter.com/vitor_navarro)
+[Instagram](https://www.instagram.com/vitor_navarro/)
+[Medium](https://medium.com/@vitornavarro)
+[Youtube](https://www.youtube.com/channel/UCieNN_y4Gw5ntIrrshV8PPA))
+[Acabou a pilha (Youtube canal geek)](https://www.youtube.com/channel/UCGEBV7ecidx09I3cQRqSjkQ)

@@ -60,6 +60,7 @@ export const NavigationLink = styled(LocalizedLink)`
 `;
 
 export const NavigationButton = styled(Link)`
+  visibility: hidden;
   background: var(--primary-color);
   border-radius: 2px;
   color: #fff;

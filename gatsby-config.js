@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby multiple language starter`,
-    description: `A simple but feature rich starter boilerplate for creating a multi-language Gatsby website (Internationalization / i18n) without third party plugins or packages and also focused on SEO. This starter also contains other main Gatsby configurations you might need.`,
-    author: `@diogorodrigues`,
-    siteUrl: `https://iceberg-gatsby-multilang.netlify.com/`,
+    title: `vitor navarro`,
+    description: `My personal portfolio and blog site.`,
+    author: `@vitor_navarro`,
+    siteUrl: `https://www.vnavarro.com.br/`,
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
@@ -101,17 +101,37 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby multiple language`,
-        short_name: `Gatsby multiple language`,
+        name: `Vitor Navarro Site`,
+        short_name: `Vitor Navarro Site`,
         start_url: `/`,
-        background_color: `#16202c`,
-        theme_color: `#16202c`,
+        background_color: `##8536b3`,
+        theme_color: `##8536b3`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/code.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-embed-gist"            
+          }
+        ]
+      }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-highlight-code`
+          },
+        ],
+      },
+    },
   ],
 };

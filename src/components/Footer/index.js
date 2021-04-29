@@ -27,14 +27,7 @@ const Footer = () => {
           .
         </p>
         <p>
-          {maintainedBy}{' '}
-          <a
-            href="https://twitter.com/_diogorodrigues"
-            target="_blank"
-          >
-            @_diogorodrigues
-          </a>
-          . {contributeMessage}{' '}
+          {contributeMessage}{' '}
           <a
             href="https://github.com/diogorodrigues/iceberg-gatsby-multilang"
             target="_blank"
@@ -42,6 +35,9 @@ const Footer = () => {
             Github
           </a>
           .
+        </p>
+        <p>
+          <div>Code icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
         </p>
       </S.FooterContainer>
     </S.FooterWrapper>

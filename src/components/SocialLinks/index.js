@@ -10,7 +10,7 @@ const SocialLinks = () => {
     <S.SocialLinksList>
       <S.SocialLinksItem>
         <S.SocialLinksLink
-          href="https://github.com/diogorodrigues/iceberg-gatsby-multilang"
+          href="https://github.com/vnavarro"
           title="Github"
           target="_blank"
         >
@@ -19,7 +19,7 @@ const SocialLinks = () => {
       </S.SocialLinksItem>
       <S.SocialLinksItem>
         <S.SocialLinksLink
-          href="https://twitter.com/_diogorodrigues"
+          href="https://twitter.com/vitor_navarro"
           title="Twitter"
           target="_blank"
         >

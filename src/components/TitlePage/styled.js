@@ -3,17 +3,17 @@ import media from 'styled-media-query';
 
 export const TitleElement = styled.h1`
   line-height: 140%;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: var(--space-lg);
 
   ${media.greaterThan('medium')`
     line-height: 1.1;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   `}
 
   ${media.greaterThan('large')`
     line-height: 1.1;
-    font-size: 4rem;
+    font-size: 3rem;
   `}
 `;

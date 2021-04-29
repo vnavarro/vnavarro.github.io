@@ -3,6 +3,6 @@
     { "name": "Início", "link": "/" },
     { "name": "Sobre", "link": "/sobre" },
     { "name": "Blog", "link": "/blog" },
-    { "name": "Contato", "link": "/contato" }
+    { "name": "Podcast", "link": "https://anchor.fm/bananas-maduras" }
   ]
 }

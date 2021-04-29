@@ -76,6 +76,22 @@ const GlobalStyles = createGlobalStyle`
     color: var(--primaryColor)
   }
 
+  .homesubtitle {
+    line-height: 140%;
+    font-size: 2rem;
+    font-weight: bold;
+    
+    ${media.greaterThan('medium')`
+      line-height: 1.1;
+      font-size: 2.5rem;
+    `}
+
+    ${media.greaterThan('large')`
+      line-height: 1.1;
+      font-size: 3rem;
+    `}
+  }
+
   :root { 
     --dark-blue: #3675b3;
     --light-blue: #4da6ff;

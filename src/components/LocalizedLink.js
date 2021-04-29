@@ -13,11 +13,17 @@ const LocalizedLink = ({ to, ...props }) => {
   // If it's another language, add the "path"
   // However, if the homepage/index page is linked don't add the "to"
   // Because otherwise this would add a trailing slash
-  const path = locales[locale].default
-    ? to
-    : `/${locales[locale].path}${isIndex ? `` : `${to}`}`;
+  var path;
+  if(to.includes("http")) {
+    path = to;
+  } 
+  else {
+    path = locales[locale].default
+      ? to
+      : `/${locales[locale].path}${isIndex ? `` : `${to}`}`;
+  }
 
-  return <Link {...props} href={path}/>;
+  return <Link {...props} to={path}/>;
 };
 
 export default LocalizedLink;

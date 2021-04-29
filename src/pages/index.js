@@ -5,6 +5,8 @@ import PostItem from '../components/PostItem';
 import TitlePage from '../components/TitlePage';
 import LocalizedLink from '../components/LocalizedLink';
 import useTranslations from '../components/useTranslations';
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();
 
 import * as S from '../components/ListWrapper/styled';
 
@@ -27,7 +29,7 @@ const Index = ({ data: { allMarkdownRemark } }) => {
       <TitlePage text={hello} />
       <p>{subline}</p>
       <hr style={{ margin: `2rem 0` }} />
-      <h2>
+      <h2 className="homesubtitle">
         <strong>{latestPosts}</strong>
       </h2>
 
