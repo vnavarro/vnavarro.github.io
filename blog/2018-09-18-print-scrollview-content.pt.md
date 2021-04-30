@@ -1,6 +1,6 @@
 ---
 title: "[QuickTips] Screenshot de uma ScrollView no iOS (Swift)"
-description: Como fazer o print do conteúdo de uma ScrollView
+description: Como fazer o print do conteúdo de uma ScrollView.
 date: 2018-09-17 17:40:00
 image: assets/img/08.jpg
 category: Development
