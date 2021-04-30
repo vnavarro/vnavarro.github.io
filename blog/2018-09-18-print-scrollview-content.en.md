@@ -1,10 +1,10 @@
 ---
-title: '[QuickTips] UIScrollView Screenshot on iOS (Swift)'
-date: '2018-09-17 17:40:00'
+title: "[QuickTips] UIScrollView Screenshot on iOS (Swift)"
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
+date: 2018-09-17 17:40:00
+image: assets/img/08.jpg
 category: Development
-background: '#353b48'
-image: '/assets/img/03.jpg'
+background: "#353b48"
 ---
 
 The next challenge is always hanging around in our lives and today there is a cool one to share, printing the full content of a scrollview. 
