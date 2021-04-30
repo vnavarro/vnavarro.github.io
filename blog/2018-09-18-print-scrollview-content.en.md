@@ -1,6 +1,6 @@
 ---
 title: "[QuickTips] UIScrollView Screenshot on iOS (Swift)"
-description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
+description: How to screenshot the ScrollView content.
 date: 2018-09-17 17:40:00
 image: assets/img/08.jpg
 category: Development
