@@ -3,21 +3,24 @@ title: "Leituras recomendadas: Políticas do Design"
 description: Pode ser fácil não nos darmos conta do tanto que as produções
   humanas influenciam toda a sociedade ao seu redor e até ao redor do mundo
   todo, mesmo quando criadas em um povoado minúsculo no meio de uma ilha remota.
-date: 2021-04-30 06:37:39
-image: assets/img/fabio-santaniello-bruun-y6tgu-oh8la-unsplash.jpeg
-category: Outros
-background: "#7d4cdb"
+date: '2021-04-30 06:37:39'
+image: 'assets/img/unsplash01.jpg'
+category: 'Review'
+background: "#b33662"
 ---
+
 Pode ser fácil não nos darmos conta do tanto que as produções humanas influenciam toda a sociedade ao seu redor e até ao redor do mundo todo, mesmo quando criadas em um povoado minúsculo no meio de uma ilha remota.
 
 Em todas as partes do mundo a política tem sido importante já tem alguns séculos, e mesmo antes do surgimento da política moderna, mais parecida com o que conhecemos na história recente pode se dizer que humanos já faziam uso de conceitos de organização e tomadas de decisão em grupos.
 
 É possível que pensemos que a política existe em um jardim flutuante sendo afetada somente por disciplinas similares mas nunca por qualquer outra.
 
-Já estive pessoalmente nessa área, no entanto, minha jornada na política tem aberto novos horizontes, e mais uma vez recebi uma surpresa muito incrível com a indicação do livro **Políticas do design**\[1]\[2] feita por um grande amigo designer.
+Já estive pessoalmente nessa área, no entanto, minha jornada na política tem aberto novos horizontes, e mais uma vez recebi uma surpresa muito incrível com a indicação do livro **Políticas do design**<a href="#ref1">\[1]</a><a href="#ref2">\[2]</a> feita por um grande amigo designer.
 
-![Capa do livro lançado pela Ubu Editora no Brasil](assets/img/pdd.jpeg "Capa do livro lançado pela Ubu Editora no Brasil [1]")
-**Capa do livro lançado pela Ubu Editora no Brasil [1]**
+![Capa do livro lançado pela Ubu Editora no Brasil](/assets/img/pdd.jpg)
+
+
+*Capa do livro lançado pela Ubu Editora no Brasil <a href="#ref1">\[1]</a>*
 
 O livro de Ruben Pater traz um conjunto de informações curtas e diretas que demonstram como o design afetou, afeta e poderá continuar afetando a sociedade.
 
@@ -37,8 +40,8 @@ Ei você sabia que o Goodreads é um app de comunidade sobre livros onde podemos
 
 Foto da capa [Fabio Santaniello Bruun](https://unsplash.com/@fabiosbruun?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) - [Unsplash](https://unsplash.com/s/photos/font?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-**Referências**
+### Referências
 
-\[1] Livro Políticas do design: Um guia (não tão) global de comunicação visual. Por Ruben Pater publicado no Brasil pela Ubu Editora em 2020.
+<span id="ref1">\[1]<span> Livro Políticas do design: Um guia (não tão) global de comunicação visual. Por Ruben Pater publicado no Brasil pela Ubu Editora em 2020.
 
-\[2] Site do livro Políticas do design — <http://thepoliticsofdesign.com/about-the-book> — acessado pela última vez em 22 de abril de 2020 às 16:40.
+<span id="ref2">\[2]</span> Site do livro Políticas do design — <http://thepoliticsofdesign.com/about-the-book> — acessado pela última vez em 22 de abril de 2020 às 16:40.

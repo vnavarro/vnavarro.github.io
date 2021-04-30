@@ -40,11 +40,15 @@ const PostItem = ({
     return img.node.childImageSharp.fluid.src.includes('cover');
   });
 
-  const imgName = image ? image.split('/')[3] : false;
+  var imgName = false;
+  if (image) {
+    const imageParts = image.split('/');
+    imgName = imageParts[imageParts.length-1]
+  }
 
   const postImg = imgName
     ? listImages.edges.find(img => {
-        return img.node.childImageSharp.fluid.src.includes(imgName);
+        return img.node.childImageSharp ? img.node.childImageSharp.fluid.src.includes(imgName) : false;
       })
     : false;
 
