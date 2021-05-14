@@ -2,7 +2,7 @@
   "home": "Início",
 
   "hello": "Meu canto pessoal na web",
-  "subline": "Aqui você vai encontrar vários conteúdos produzidos por mim ao longo dos anos, dentro e fora da minha profissão.",
+  "subline": "Bem vindo a 4ª geração do meu site, sim ele passou por quatro grandes mudanças até chegar aqui. 1ª geração foi com ASP.NET na época em que eu estava focado no frontend e backend .NET. Então veio 2ª geração que foi minha tentativa de criar um site visualmente melhorado com todos meus projetos como portfólio, foi uma solução em Jekyll colocada direta no Github, massa. 3ª geração foi a mudança para melhor postagem, gerenciar o site estava me dando dores de cabeça então eu tentei o Ghost. Mas quando a tradução ficou impossível com Ghost veio então minha decisão para migrar no Gatsby, que é o site que você vê agora. Sinta-se em casa enquanto eu restauro meus posts antigos, meu portfólio e adiciono novos conteúdos.",
   "latestPosts": "Útimos posts",
   "category": "Categoria",
   "allPosts": "Todos os Posts",  

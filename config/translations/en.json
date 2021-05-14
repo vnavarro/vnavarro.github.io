@@ -2,7 +2,7 @@
   "home": "Home",
 
   "hello": "My personal corner in the web",
-  "subline": "Here you'll find a lot off stuff that I've been doing through the years, both inside and outside my profession.",
+  "subline": "Welcome to my site 4th generation, yep it went through four huge changes to get here. 1st gen was my ASP.NET site when I was really focused on .NET front and backend ecosystem. Then came 2nd gen which was my attempt to create a visually improved site with all my projects as portfolio, it was a Jekyll solution hosted direclty at Github, neat. 3rd gen was the change I needed for better posting, managing the site was giving me headaches thus I tried Ghost. When translation became impossible with Ghost came my decision to migrate to Gatsby, which is the site you see right now. Make yourself confortable while I load back all my old posts, my portfolio, while adding new content.",
   "latestPosts": "Latest posts",
   "category": "Category", 
   "allPosts": "All Posts",
