@@ -7,13 +7,13 @@ category: 'Development'
 background: '#353b48'
 ---
 
-Is not uncommon to create apps that are similar or even work in apps that apply different layouts, be the reason cultural adaptation, accessibility, dark vs light theme, etc. No matter the reason you would be creating mechanisms for allowing your app to quickly changing between layouts, a well-architected code may be the difference between success and subsequent refactoring or even worse total garbage code that someone will question "may we drop this and start anew?".
+Is **not** uncommon to create apps that are similar or even work in apps that apply different layouts, be the reason cultural adaptation, accessibility, dark vs light theme, etc. No matter the reason you would be creating mechanisms for allowing your app to quickly changing between layouts, a well-architected code may be the difference between success and subsequent refactoring or even worse total garbage code that someone will question "may we drop this and start anew?".
 
 Sure there are multiple ways of approaching this issue and the solution I'm proposing here may not fit every project needs, still is an idea that worked really well in some projects I worked with and may be helpful to get other projects going in the right direction or at least start the discussion about it.
 
 Following is the solution with a mix of protocols and classes, which is robust enough to allow for future growth.
 
-```SWIFT
+```swift
 class Theme {
     public static var current: Theme = DefaultTheme()
     var palette: ColorPaletteProtocol!
@@ -46,7 +46,7 @@ class DefaultTheme: Theme {
 
 Adding another theme called **AlternativeTheme** is easy given the base structure above.
 
-```SWIFT
+```swift
 class AlternativeTheme: Theme {
     override init() {
         super.init()
@@ -64,7 +64,7 @@ class AlternativeTheme: Theme {
 
 Great right? Yes, indeed it is. Still, I dislike the usage of init on those custom themes and I prefer using a protocol to define the **Theme** and delegate setting the current theme instance to another design structure. So how did I refactored it?
 
-```SWIFT
+```swift
 protocol Theme {
     var palette: ColorPaletteProtocol { get set }
 }
@@ -101,7 +101,7 @@ class AlternativeTheme: Theme {
 
 Neat! But one would ask what about fonts? Should they be themed too? Well, that depends on how you desire your theming system to work. Considering that as a requirement, one option could be something like the following additional code.
 
-```SWIFT
+```swift
 protocol FontStyles {
     var heading: UIFont { get set }
     var body: UIFont { get set }
@@ -119,7 +119,7 @@ struct DefaultFontStyles: FontStyles {
 
 Now we just need to add those to the Theme and update everything else accordingly.
 
-```SWIFT
+```swift
 protocol Theme {
     var palette: ColorPaletteProtocol { get set }
     var fontStyles: FontStyles { get set }

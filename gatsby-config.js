@@ -64,6 +64,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        gfm: true,
         plugins: [
           {
             resolve: `gatsby-remark-relative-images`,
@@ -78,8 +79,18 @@ module.exports = {
               linkImagesToOriginal: false,
             },
           },
+          { 
+            resolve: "gatsby-remark-embed-gist"            
+          },
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: "carbon",
+              theme: "night-owl",
+            }
+          },
           `gatsby-remark-lazy-load`,
-          `gatsby-remark-prismjs`, // It needs to be the last one
+          // `gatsby-remark-prismjs`, // It needs to be the last one
         ],
       },
     },
@@ -90,7 +101,6 @@ module.exports = {
           {
             family: `Open Sans`,
             variable: true,
-            weights: [`400..600`],
           },
         ],
       },
@@ -112,26 +122,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-offline`,
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-embed-gist"            
-          }
-        ]
-      }
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-highlight-code`
-          },
-        ],
-      },
-    },
+    `gatsby-plugin-offline`
   ],
 };

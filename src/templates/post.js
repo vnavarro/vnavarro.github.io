@@ -29,12 +29,12 @@ export const query = graphql`
       frontmatter: { title: { eq: $title } }
       fields: { locale: { eq: $locale } }
     ) {
+      html
       frontmatter {
         title
         description
         image
-      }
-      html
+      }      
     }
   }
 `;

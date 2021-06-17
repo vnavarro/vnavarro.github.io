@@ -24,7 +24,7 @@ But before we can print anything the content should be transformed into an UIIma
 
 Transforming that into code:
 
-```SWIFT
+```swift
 import UIKit
 extension UIScrollView {
     func toImage() -> UIImage? {
@@ -61,7 +61,7 @@ The only import needed is UIKit and following is a function where we receive the
 
 The code should be easy to read, it comprises the creation of UIPrintInteractionController with desired settings and  passing the image from toImage to printingItem.
 
-```SWIFT
+```swift
 func onPrintReceipt(from view: UIScrollView, onPrintFailed: @escaping () -> Void) {
     let screenshot = view.toImage()
     
