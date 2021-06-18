@@ -139,5 +139,129 @@ const GlobalStyles = createGlobalStyle`
     --space-sm: 1rem;
     --space-lg: 3rem;
   }
+
+  /* Enforce prism theme bg*/
+
+  /**
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ * @author Rose Pritchard
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #ccc !important;
+	background: none !important;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+	text-align: left !important;
+	white-space: pre !important;
+	word-spacing: normal !important;
+	word-break: normal !important;
+	word-wrap: normal !important;
+	line-height: 1.5 !important;
+
+	-moz-tab-size: 4 !important;
+	-o-tab-size: 4 !important;
+	tab-size: 4 !important;
+
+	-webkit-hyphens: none !important;
+	-moz-hyphens: none !important;
+	-ms-hyphens: none !important;
+	hyphens: none !important;
+
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em !important;
+	margin: .5em 0 !important;
+	overflow: auto !important;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #2d2d2d !important;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em !important;
+	border-radius: .3em !important;
+	white-space: normal !important;
+}
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #999 !important;
+}
+
+.token.punctuation {
+	color: #ccc !important;
+}
+
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted {
+	color: #e2777a !important;
+}
+
+.token.function-name {
+	color: #6196cc !important;
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+	color: #f08d49 !important;
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+	color: #f8c555 !important;
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+	color: #cc99cd !important;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+	color: #7ec699 !important;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+	color: #67cdcc !important;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold !important;
+}
+.token.italic {
+	font-style: italic !important;
+}
+
+.token.entity {
+	cursor: help !important;
+}
+
+.token.inserted {
+	color: green !important;
+}
 `;
 export default GlobalStyles;

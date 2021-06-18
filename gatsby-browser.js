@@ -1,6 +1,6 @@
 import 'lazysizes';
 
-require('prismjs/themes/prism-tomorrow.css');
+// require('prismjs/themes/prism-dark.css');
 
 import CustomLayout from './wrapPageElement';
 

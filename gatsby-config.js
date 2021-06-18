@@ -82,15 +82,15 @@ module.exports = {
           { 
             resolve: "gatsby-remark-embed-gist"            
           },
-          {
-            resolve: `gatsby-remark-highlight-code`,
-            options: {
-              terminal: "carbon",
-              theme: "night-owl",
-            }
-          },
+          // {
+          //   resolve: `gatsby-remark-highlight-code`,
+          //   options: {
+          //     terminal: "none",
+          //     theme: "night-owl",
+          //   }
+          // },
           `gatsby-remark-lazy-load`,
-          // `gatsby-remark-prismjs`, // It needs to be the last one
+          `gatsby-remark-prismjs`, // It needs to be the last one
         ],
       },
     },
@@ -114,8 +114,8 @@ module.exports = {
         name: `Vitor Navarro Site`,
         short_name: `Vitor Navarro Site`,
         start_url: `/`,
-        background_color: `##8536b3`,
-        theme_color: `##8536b3`,
+        background_color: `#8536b3`,
+        theme_color: `#8536b3`,
         display: `minimal-ui`,
         icon: `src/images/code.png`,
       },
