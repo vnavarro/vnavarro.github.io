@@ -13,7 +13,7 @@ Com certeza existem diversas formas de atacar esse problema, e a solução que e
 
 Abaixo temos a solução com um mix de protocolos e classes, é robusta o suficiente para permitir crescimentos futuros.
 
-```SWIFT
+```swift
 class Theme {
     public static var current: Theme = DefaultTheme()
     var palette: ColorPaletteProtocol!
@@ -46,7 +46,7 @@ class DefaultTheme: Theme {
 
 Adicionar um segundo tema chamado **AlternativeTheme** é fácil dado a estrutura anterior.
 
-```SWIFT
+```swift
 class AlternativeTheme: Theme {
     override init() {
         super.init()
@@ -64,7 +64,7 @@ class AlternativeTheme: Theme {
 
 Sensacional, certo? Sim, com certeza é. No entanto eu não sou fã desses inits nos temas e prefiro usar protocol para definir o **Theme** e delegar o gerenciamento do tema atual para uma outra estrutura de design. Como refatorei então?
 
-```SWIFT
+```swift
 protocol Theme {
     var palette: ColorPaletteProtocol { get set }
 }
@@ -101,7 +101,7 @@ class AlternativeTheme: Theme {
 
 Ainda poderia, por exemplo, surgir uma questão sobre fontes? Deveriam ficar nos temas também? Bom, isso depende da sua vontade e das necessidades do sistema de temas. Considerando esse ponto como um requisito uma opção poderia ser algo como o código a seguir.
 
-```SWIFT
+```swift
 protocol FontStyles {
     var heading: UIFont { get set }
     var body: UIFont { get set }
@@ -119,7 +119,7 @@ struct DefaultFontStyles: FontStyles {
 
 Com isso só precisamos atualizar o **Theme** e o restante de acordo.
 
-```SWIFT
+```swift
 protocol Theme {
     var palette: ColorPaletteProtocol { get set }
     var fontStyles: FontStyles { get set }

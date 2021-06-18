@@ -24,7 +24,7 @@ Antes de imprimir temos que converter o conteúdo da **scrollview** em uma **UII
 
 Transformando essa idéia em código propriamente dito temos:
 
-```SWIFT
+```swift
 import UIKit
 extension UIScrollView {
     func toImage() -> UIImage? {
@@ -61,7 +61,7 @@ O único import necessário aqui é o **UIKit**, gerei uma função onde recebem
 
 O código deve ser bem fácil de compreender, o que fazemos é criar o **UIPrintInteractionController** com os **settings** desejados e passar a imagem gerada pelo **toImage** para a propriedade **printingItem**.
 
-```SWIFT
+```swift
 func onPrintReceipt(from view: UIScrollView, onPrintFailed: @escaping () -> Void) {
     let screenshot = view.toImage()
     

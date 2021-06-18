@@ -66,6 +66,12 @@ const GlobalStyles = createGlobalStyle`
       font-size: 1.7rem;
     `}
   }
+  strong {
+    font-weight: bold !important;
+  }
+  em {
+    font-style: italic !important;
+  }
   img {
     display: block;
   	max-width: 100%;
