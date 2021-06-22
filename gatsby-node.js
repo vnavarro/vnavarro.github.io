@@ -1,4 +1,5 @@
 const path = require(`path`);
+const { Language } = require("styled-icons/material-outlined");
 const locales = require(`./config/i18n`);
 const {
   localizedSlug,
@@ -125,7 +126,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   // Total of posts (only posts, no pages)
   // It will be increase by the next loop
-  let postsTotal = 0;
+  var postsTotalPerLang = [];
 
   // Creating each post
   contentMarkdown.forEach(({ node: file }) => {
@@ -144,8 +145,12 @@ exports.createPages = async ({ graphql, actions }) => {
     const template = isPage ? pageTemplate : postTemplate;
 
     // Count posts
-    postsTotal = isPage ? postsTotal + 0 : postsTotal + 1;
-
+    if (postsTotalPerLang[locale] == null || postsTotalPerLang[locale] == undefined) {
+      postsTotalPerLang[locale] = 0
+    }
+    if (!isPage) {
+      postsTotalPerLang[locale] += 1;
+    }
     createPage({
       path: localizedSlug({ isDefault, locale, slug, isPage }),
       component: template,
@@ -160,11 +165,10 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   // Creating Posts List and its Pagination
-  const postsPerPage = 4;
-  const langs = Object.keys(locales).length;
-  const numPages = Math.ceil(postsTotal / langs / postsPerPage);
-
+  const postsPerPage = 6;    
   Object.keys(locales).map(lang => {
+    const postsTotal =  postsTotalPerLang[lang];
+    const numPages = Math.ceil(postsTotal / postsPerPage);
     // Use the values defined in "locales" to construct the path
     const localizedPath = locales[lang].default
       ? '/blog'

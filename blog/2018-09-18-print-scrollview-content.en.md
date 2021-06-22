@@ -2,7 +2,7 @@
 title: "[QuickTips] UIScrollView Screenshot on iOS (Swift)"
 description: How to screenshot the ScrollView content.
 date: 2018-09-17 17:40:00
-image: assets/img/08.jpg
+image: assets/img/09.jpg
 category: Development
 background: "#353b48"
 ---

@@ -66,6 +66,7 @@ module.exports = {
       options: {
         gfm: true,
         plugins: [
+          `gatsby-remark-responsive-iframe`,
           {
             resolve: `gatsby-remark-relative-images`,
             options: {

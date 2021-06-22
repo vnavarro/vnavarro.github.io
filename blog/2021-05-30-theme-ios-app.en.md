@@ -2,7 +2,7 @@
 title: "[QuickTips] One way to simplify theming your Apps"
 description: The need of themes is part of a developer's life, here I present a way of using multiple themes in iOS with Swift.
 date: 2021-05-30 19:24:00
-image: 'assets/img/08.jpg'
+image: 'assets/img/09.jpg'
 category: 'Development'
 background: '#353b48'
 ---

@@ -2,7 +2,7 @@
 title: "[QuickTips] Uma forma de simplificar temas nos seus Apps"
 description: A necessidade de temas é parte da rotina de um desenvolvedor, apresento então uma forma de utilizar múltiplos temas no iOS com Swift.
 date: 2021-05-30 19:24:00
-image: 'assets/img/08.jpg'
+image: 'assets/img/09.jpg'
 category: 'Development'
 background: '#353b48'
 ---
