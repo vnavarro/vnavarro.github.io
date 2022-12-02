@@ -1,8 +1,0 @@
-{
-  "menuItems": [
-    { "name": "Home", "link": "/" },
-    { "name": "About", "link": "/about" },
-    { "name": "Blog", "link": "/blog" },
-    { "name": "Podcast", "link": "https://anchor.fm/bananas-maduras" }
-  ]
-}

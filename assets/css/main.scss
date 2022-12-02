@@ -1,0 +1,26 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+sitemap: false
+---
+
+@charset "utf-8";
+
+@import "so-simple";
+
+$light-pink: #ff4d8b !default;
+
+.entry-title {
+    color: $light-pink;
+}
+
+.page-title {
+    color: $light-pink;
+}
+
+.page-sidebar {
+    color: $light-pink;
+}
+
+.site-title a {
+    color: $light-pink !important;
+}
