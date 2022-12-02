@@ -1,0 +1,8 @@
+Vitor Navarro:
+  name: Vitor Navarro
+  picture: /images/avatar.png
+  twitter: "@vitor_navarro"
+  links:
+    - title: Twitter
+      url: https://twitter.com/vitor_navarro
+      icon: fab fa-twitter-square
