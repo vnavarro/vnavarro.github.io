@@ -2,6 +2,7 @@
 layout: post
 title:  "Ela e tu"
 date:   2023-03-09 00:00:00 +0100
+description: "A noite anunciava sua chegada mudando os tons do céu em mesclas de azul, laranja e escuridão."
 categories: 
   - caixa de chocolates
 tags:
