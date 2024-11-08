@@ -6,15 +6,9 @@ layout: page
 
 ## Who Am I?
 
-> Life is not a race, it's a journey, we must savor every instant of it.
-
-> The Universe is under no obligation to make sense to you. Neil deGrasse Tyson
-
-> Be yourself; everyone else is already taken. Oscar Wilde
+I'm Vitor Navarro, Brazilian, Computer Scientist, book and videogame lover, curious jack of all trades. 🧑🏽‍🚀
 
 ### Software Developer, Speaker, Teacher, Writer, Podcaster
-
-The curious jack of all trades. 🧑🏽‍🚀
 
 Meet some of me below.
 
@@ -34,7 +28,7 @@ Meet some of me below.
 * Bachelor in Computer Science and specialized in Games: Production and Development.
 * Reached my dream job of working with games at SYBO Games in Denmark.
 * Worked doing los of apps for both iOS and Android.
-* I have been interviewed for Forbes, check [here](https://forbes.com.br/forbes-tech/especial-inovadores-negros/2020/08/especial-inovadores-negros-9-brasileiros-que-estao-apostando-na-educacao-financeira-e-no-credito-como-arma-de-ascensao-social/#foto8)
+* I have been interviewed for Forbes, check [here](https://forbes.com.br/forbes-tech/especial-inovadores-negros/2020/08/especial-inovadores-negros-9-brasileiros-que-estao-apostando-na-educacao-financeira-e-no-credito-como-arma-de-ascensao-social/#foto9)
 * Already taught iOS and other workshops, also was a teacher of game engine and mobile games disciplines in the same university course that I specialized into.
 * Me and Rogério Rennó Cavalcanti won 1st prize with best game in Firefox OS Hackathon.
   
@@ -57,3 +51,11 @@ Let's talk, maybe even work together. Here are my social networks.
 [Acabou a pilha (Youtube geek channel)](https://www.youtube.com/channel/UCGEBV7ecidx09I3cQRqSjkQ)
 
 <p><s>Twitter</s> Not using since Elon started to dismantle it</p>
+
+### Some Quotes
+
+> Life is not a race, it's a journey, we must savor every instant of it.
+
+> The Universe is under no obligation to make sense to you. Neil deGrasse Tyson
+
+> Be yourself; everyone else is already taken. Oscar Wilde

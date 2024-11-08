@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Vitor Navarro
+title: 
 email: dev.vitor.navarro@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal corner in the web, if you're here for any of my posts, projects or to know
+  I'm Vitor navarro and this is my corner in the web, </br> if you're here for any of my posts, projects or to know
   more about me, this is the right place.
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.vnavarro.com.br"
@@ -53,6 +53,25 @@ defaults:
       layout: post
       comments: true
       share: true
+
+#paginate: 10  # amount of posts to show per page
+#paginate_path: /page:num/
+
+# Pagination Settings
+# pagination:
+#   enabled: true
+#   per_page: 5
+#   offset: 0
+#   permalink: '/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
+# # Produces a cleaner folder structure when using categories
+# permalink: /:year/:month/:title.html
+
+sass:
+  quiet_deps: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
