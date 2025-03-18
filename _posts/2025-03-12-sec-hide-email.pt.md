@@ -32,6 +32,7 @@ A DuckDuckGo e a Firefox tem soluções gratuitas de encaminhamento de email.
 O encaminhamento de email da DuckDuckGo faz duas coisas:
 
 1 - Fornece um email @duck.com que recebe as mensagens no lugar do email oficial repassando os emails sem os rastreadores de informação e informando quais empresas estão por trás destes.
+
 2 - Fornece um email único privado em @duck.com que pode ser gerado e também apagado para deixar de receber emails. Essa camada extra torna ainda mais difícil rastrear o email oficial.
 
 Para criar um email @duck.com e começar a proteger seu email oficial basta acessar esse [link](https://duckduckgo.com/email/).
