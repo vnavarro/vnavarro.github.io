@@ -24,3 +24,27 @@ $light-pink: #ff4d8b !default;
 .site-title a {
     color: $light-pink !important;
 }
+
+.highlights {
+    h1, .entry-title {
+        font-size: 24px !important;
+    }
+
+    .entry {
+        padding-bottom: 0px;
+    }
+}
+
+.highlights-grid {
+    grid-gap: 1em !important;
+    @extend .entries-grid;    
+}
+
+.btn--bluesky {
+    background-color: #00bfff;
+    color: #fff;
+    &:hover {
+        background-color: #007399;
+        color: #fff;
+    }
+}

@@ -3,20 +3,22 @@ layout: page
 ---
 
 <h1>Highlights</h1>
-
-<div class="entries-{{ page.entries_layout | default: 'list' }}">    
+<div class="highlights highlights-grid">
+    {% assign myOtherPost = site.posts | where_exp:"item", "item.title contains 'Segurança'" | first %}
+    {%- assign entry = myOtherPost -%}
+    {% include entry-short.html %}
 
     {% assign myOtherPost = site.posts | where_exp:"item", "item.title contains 'Communication'" | first %}
     {%- assign entry = myOtherPost -%}
-    {% include entry.html %}
+    {% include entry-short.html %}
 
     {% assign myOtherPost = site.posts | where_exp:"item", "item.title contains 'Quality'" | first %}
     {%- assign entry = myOtherPost -%}
-    {% include entry.html %}
+    {% include entry-short.html %}
 
     {% assign myOtherPost = site.posts | where_exp:"item", "item.title contains 'code monkeys'" | first %}
     {%- assign entry = myOtherPost -%}
-    {% include entry.html %}
+    {% include entry-short.html %}
 
     {%- comment -%}
     {% assign other2 = site.posts | where_exp:"item", "item.url contains 'better-pro'" | sort: "item.date" | reverse %}
@@ -24,7 +26,8 @@ layout: page
         {% include entry.html %}
     {%- endfor -%}
     {%- endcomment -%}
-
+</div>
+<div class="entries-{{ page.entries_layout | default: 'list' }}">    
     <h1>Latest posts</h1>
 
     {% assign posts_limit = page.posts_limit | default: 10 %}
