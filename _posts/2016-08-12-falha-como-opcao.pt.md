@@ -25,7 +25,7 @@ Porque repreender a falha ao invés de elogiá-las? Dentro de certos limites iss
 
 Ouça o Astro na Radio NPR
 
-http://www.npr.org/player/embed/487608149/487791759?source=post_page-----18df3c26ab4e---------------------------------------
+<iframe src="https://www.npr.org/player/embed/487608149/487791759" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
 
 Além de Astro há também uma importante lição de [Tim Harford](https://timharford.com/article/), porque esquivamos tanto em admitir nossos erros? Ele menciona o [complexo de deus](https://pt.wikipedia.org/wiki/Complexo_de_deus) como um ponto importante, que não é uma doença ou distúrbio, mas descreve muito bem quão forte alguém se recusa a admitir erros, isso reforça meu ponto de que o problema está também na sociedade e não somente no indivíduo.
 
@@ -33,7 +33,7 @@ Nesse sentido a coisa mais importante que ele diz é sobre mudar a cultura de no
 
 Ouça Tim na Radio NPR
 
-http://www.npr.org/player/embed/487609615/487791861?source=post_page-----18df3c26ab4e---------------------------------------
+<iframe src="http://www.npr.org/player/embed/487609615/487791861" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
 
 Dessas duas primeiras partes, de um total de quatro, podemos resumir os seguintes pontos:
 
