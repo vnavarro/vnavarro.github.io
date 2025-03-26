@@ -34,7 +34,21 @@ logo: "/assets/avatar.png"
 theme: jekyll-theme-so-simple
 plugins:
   - jekyll-feed
+  - jekyll-compose
   #- jekyll-polyglot
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      image:
+      category:
+      tags:
+    posts:
+      description:
+      image:
+      category:
+      tags:
 
 #polyglot config
 #languages: ["en", "pt"]

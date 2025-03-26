@@ -4,6 +4,10 @@ layout: page
 
 <h1>Highlights</h1>
 <div class="highlights highlights-grid">
+    {% assign myOtherPost = site.posts | where_exp:"item", "item.highlight and item.title contains 'falha'" | first %}
+    {%- assign entry = myOtherPost -%}
+    {% include entry-short.html %}
+
     {% assign myOtherPost = site.posts | where_exp:"item", "item.title contains 'Segurança'" | first %}
     {%- assign entry = myOtherPost -%}
     {% include entry-short.html %}
