@@ -12,6 +12,7 @@ I'm Vitor Navarro, Brazilian, Computer Scientist, book and videogame lover, curi
 
 Meet some of me below.
 
+* I speak 4 languages, portuguese, english, spanish and french. 
 * Technology enthusiast. 👨🏽‍💻
 * Voracious book reader, active player of video games and board games. 👾
 * Wanna chat? Some of the subjects I enjoy are psychology, sociology, politics, comics, movies, tv shows, and animations. 💬
@@ -26,10 +27,12 @@ Meet some of me below.
 ### Professional profile
 
 * Bachelor in Computer Science and specialized in Games: Production and Development.
-* Reached my dream job of working with games at SYBO Games in Denmark.
-* Worked doing los of apps for both iOS and Android.
+* Currently studying Software Architecture, Data Science and Cybersecurity at PUC.
+* Had the pleasure to work at SYBO Games with SubwaySurfers and BRIM in Denmark.
+* Had the pleasure to work at Wildlife Studios with coloring apps here in Brazil. 
+* Have been working with native iOS and Android apps for a while now, including but not restricted to Pinterest, Starbucks, Shipsticks, FIO.NET, Casas Bahia, Extra, PontoFrio, Pão de Açúcar, Veja.com.
 * I have been interviewed for Forbes, check [here](https://forbes.com.br/forbes-tech/especial-inovadores-negros/2020/08/especial-inovadores-negros-9-brasileiros-que-estao-apostando-na-educacao-financeira-e-no-credito-como-arma-de-ascensao-social/#foto9)
-* Already taught iOS and other workshops, also was a teacher of game engine and mobile games disciplines in the same university course that I specialized into.
+* Already taught iOS and other programming workshops, also was a teacher of game engine and mobile games disciplines in the same university course that I specialized into at Centro Universitário Senac.
 * Me and Rogério Rennó Cavalcanti won 1st prize with best game in Firefox OS Hackathon.
   
 ### Contact
@@ -50,7 +53,7 @@ Let's talk, maybe even work together. Here are my social networks.
 
 [Acabou a pilha (Youtube geek channel)](https://www.youtube.com/channel/UCGEBV7ecidx09I3cQRqSjkQ)
 
-<p><s>Twitter</s> Not using since Elon started to dismantle it</p>
+<p><s>Twitter</s> Not using since Elon started to destroy it</p>
 
 ### Some Quotes
 
