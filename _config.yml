@@ -106,3 +106,9 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+feed:
+  title: "Vitor Navarro's site"
+  description: "This is my personal site where I share posts about my projects, programming, technology and a bit more."
+  author: "Vitor Navarro"
+  excerpt_only: true
