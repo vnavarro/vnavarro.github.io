@@ -5,3 +5,9 @@ layout: page
 ---
 
 Acesse aqui as [Políticas de Privacidade](/assets/SMAPoliticadePrivacidade.pdf)
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+
+<object type="text/html" data="smag/index.html" width="640" height="720"></object>
+
+</div>
