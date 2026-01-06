@@ -62,10 +62,10 @@ Enquanto não consigo lidar com o presente virando passado e planejar qualquer f
 
 ## Referências
 
-<span id="ref1">\[1]<span> https://ceoworld.biz/2025/09/08/the-worlds-10-richest-families-inside-the-multi-billion-dollar-dynasties-shaping-global-wealth/ 
+<span id="ref1">\[1]<span> [https://ceoworld.biz/2025/09/08/the-worlds-10-richest-families-inside-the-multi-billion-dollar-dynasties-shaping-global-wealth/](https://ceoworld.biz/2025/09/08/the-worlds-10-richest-families-inside-the-multi-billion-dollar-dynasties-shaping-global-wealth/)
 
-<span id="#ref2">\[2]</span> https://wealthifynest.com/13-families-that-run-the-world/ 
+<span id="#ref2">\[2]</span> [https://wealthifynest.com/13-families-that-run-the-world/](https://wealthifynest.com/13-families-that-run-the-world/)
 
-<span id="#ref3">\[3]</span> https://worldostats.com/global-stats/richest-tech-companies/ 
+<span id="#ref3">\[3]</span> [https://worldostats.com/global-stats/richest-tech-companies/](https://worldostats.com/global-stats/richest-tech-companies/)
 
-<span id="#ref4">\[4]</span> https://www.estadao.com.br/sustentabilidade/alerta-de-onda-de-calor-e-de-tempestade-veja-quando-temperaturas-caem-em-sp-npr/?srsltid=AfmBOorrS9Y9k_J8JXPqP5HHN49DcfPAhH8gm--GVnkOe-gfqDz0TT_p 
+<span id="#ref4">\[4]</span> [https://www.estadao.com.br/sustentabilidade/alerta-de-onda-de-calor-e-de-tempestade-veja-quando-temperaturas-caem-em-sp-npr/?srsltid=AfmBOorrS9Y9k_J8JXPqP5HHN49DcfPAhH8gm--GVnkOe-gfqDz0TT_p](https://www.estadao.com.br/sustentabilidade/alerta-de-onda-de-calor-e-de-tempestade-veja-quando-temperaturas-caem-em-sp-npr/?srsltid=AfmBOorrS9Y9k_J8JXPqP5HHN49DcfPAhH8gm--GVnkOe-gfqDz0TT_p) 
