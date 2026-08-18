@@ -5,6 +5,7 @@ title:  "[Quicktips] Presenting: Google's Material Design"
 date:   2015-06-23 19:39:00
 category: Design
 tags: [material design, google, mobile, android]
+lang: en
 ---
 As a person that like to expand my knowledge I look for different areas which can bring more into my life and job.
 

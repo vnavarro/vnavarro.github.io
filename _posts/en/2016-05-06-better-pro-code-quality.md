@@ -5,6 +5,7 @@ title:  "[Be a better pro] Code Quality Journey"
 date:   2016-05-06 18:13:00
 category: Self-improvement
 tags: [better-pro, code quality]
+lang: en
 ---
 
 Quality is something we all look for in the "shelves" today, be it physical or digital. The best television, the best car, the best clothes, the best education, the best trip, the best book, simply the best "put the name here", we can even go further and talk about the best experiences and feelings.

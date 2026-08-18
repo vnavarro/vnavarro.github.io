@@ -5,6 +5,7 @@ title:  "[A programmer's journey] Rust quest - day 3"
 date:   2015-03-31 17:18:00
 category: Development
 tags: [journey, rust, programming languages]
+lang: en
 ---
 Continuing our journey through these exciting lands of Rust we're going to unveil variable binding (one can think as it being almost the same thing as normal variables).
 

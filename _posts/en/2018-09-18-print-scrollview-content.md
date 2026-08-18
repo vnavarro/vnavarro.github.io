@@ -5,6 +5,7 @@ title:  "[QuickTips] UIScrollView Screenshot on iOS (Swift)"
 date:   2018-09-17 17:40:00
 category: Development
 tags: [quicktips, development, mobile, ios, scrollview, print, render, content, screenshot]
+lang: en
 ---
 
 You can read it in portuguese 🇧🇷 [here](https://medium.com/codando-a-vida-adoidado/screenshot-de-uma-scrollview-no-ios-swift-b24a428d57a0)

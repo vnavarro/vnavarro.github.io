@@ -5,6 +5,7 @@ title:  "[A programmer's journey] Rust quest - day 5"
 date:   2015-05-05 20:18:00
 category: Development
 tags: [journey, rust, programming languages]
+lang: en
 ---
 Primitive types, the pillar of our future softwares, they are needed for anything we want to model and represent.
 

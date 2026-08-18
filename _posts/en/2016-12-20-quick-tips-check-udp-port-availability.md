@@ -5,6 +5,7 @@ title:  "[QuickTips] Check UDP port availability in Android"
 date:   2016-12-20 22:00:00
 category: Development
 tags: [quicktips, development, mobile, android, java, network, udp]
+lang: en
 ---
 
 This time I stumble upon a very unusual problem, at least for me, UDP ports collision. A open source library that I used didn't garantee that two different apps using that same library would have different UDP ports, so when I installed two of my prototypes one of them didn't worked properly and unfortunately the library didn't told me that was the problem it gave me a completely generic error.

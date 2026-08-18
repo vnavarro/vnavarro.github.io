@@ -5,6 +5,7 @@ title:  "[Quick tip] Git ignore"
 date:   2017-07-02 23:45:00
 category: Self-improvement
 tags: [quicktip, git, gitignore, configuration]
+lang: en
 ---
 
 Configure properly .gitignore for each project can be a huge problematic job, even more when messed up he comes back to bite us.

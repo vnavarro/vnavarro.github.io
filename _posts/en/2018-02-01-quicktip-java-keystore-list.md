@@ -5,6 +5,7 @@ title:  "[QuickTips] List your keystore contents"
 date:   2018-02-01 17:47:00
 category: Development
 tags: [quicktips, development, mobile, android, java, keystore, jks]
+lang: en
 ---
 
 This is one is a blazing fast tip, did you ever stumble in a .jks (keystore) file from a client while trying to submit to Google Play that precious app you just finished? Well sometimes, or always.... who knows, your client simply does not have the alias name and has a list of possible passwords.

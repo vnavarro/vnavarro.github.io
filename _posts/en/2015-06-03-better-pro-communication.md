@@ -5,6 +5,7 @@ title:  "[Be a better pro] Communication"
 date:   2015-06-03 21:06:00
 category: Self-improvement
 tags: [better pro, communication, team]
+lang: en
 ---
 In the search of the path to be a better pro, we often forget that our careers
 shall not only be built on technical skills.

@@ -5,6 +5,7 @@ title:  "[Be a better pro] Not code monkeys"
 date:   2016-03-29 17:40:00
 category: Self-improvement
 tags: [better-pro, code quality]
+lang: en
 ---
 
 The way we do things in our jobs or while working in pet/open source projects have an impact we tend to ignore or overlook.

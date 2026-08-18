@@ -5,6 +5,7 @@ title:  "[Be a better pro] The right tool for the job"
 date:   2017-03-11 23:00:00
 category: Self-improvement
 tags: [better-pro, development, career]
+lang: en
 ---
 
 I'm used to classify myself as a generalist and I receive lots of odd looks from the people around me:

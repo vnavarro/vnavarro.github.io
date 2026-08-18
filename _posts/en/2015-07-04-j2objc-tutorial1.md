@@ -5,6 +5,7 @@ title:  "[DevTools] J2ObjC: How to translate and basic automation with bash"
 date:   2015-07-04 14:46:00
 category: Development
 tags: [cross-platform, j2objc, java, android, ios]
+lang: en
 ---
 Since J2ObjC[^1] it's quite useful I shall bring some technical tips while I'm working with it.
 

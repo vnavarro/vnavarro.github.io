@@ -5,6 +5,7 @@ title:  "[Quick tip] Remote developer toolbelt"
 date:   2017-08-23 09:30:00
 category: Development
 tags: [devtools, remote, better-pro]
+lang: en
 ---
 
 Being a remote developer isn't an easy task and as such having tools to make things going as smooth as possible is a must.

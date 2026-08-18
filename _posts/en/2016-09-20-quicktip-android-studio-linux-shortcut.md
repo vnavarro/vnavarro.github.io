@@ -5,6 +5,7 @@ title:  "[QuickTips] Android Studio shortcut on Linux"
 date:   2016-09-20 09:00:00
 category: Development
 tags: [quicktips, development, mobile, android, linux, config]
+lang: en
 ---
 
 I enjoy using terminal, I really do, yet sometimes having a visual shortcut when using an OS may be a nice perk.

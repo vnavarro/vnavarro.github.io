@@ -5,6 +5,7 @@ title:  "[QuickTips] Open Source - Resources to choose a license"
 date:   2016-07-20 09:00:00
 category: Development
 tags: [quicktips, open source, license]
+lang: en
 ---
 
 To pick a license for an open source code had been always something difficult for me, sometimes still is a little bit puzzling.

@@ -5,6 +5,7 @@ title:  "[Be a better pro] Books to read - Casa do código"
 date:   2015-05-26 00:06:00
 category: Self-improvement
 tags: [better pro, books to read, a casa do código]
+lang: en
 ---
 Today I have a special post for my fellow brazilians and those that can read in portuguese because the books I'm going to mention are brought to us by *[Casa do código](http://www.casadocodigo.com.br/pages/sobre-a-casa-do-codigo)* a brazilian publisher.
 

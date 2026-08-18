@@ -5,6 +5,7 @@ title:  "[QuickTips] Audio in Games - The mp3 license"
 date:   2016-07-29 16:00:00
 category: Game Development
 tags: [quicktips, games, audio, license]
+lang: en
 ---
 
 Last time we talked about [Open Source licenses](http://vnavarro.com.br/quicktips/opensource/license/2016/07/20/quicktip-opensource-license.html), but now we enter the realm of game development, more precisely audio a feature that is ignored more that it should be.

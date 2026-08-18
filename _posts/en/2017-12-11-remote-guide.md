@@ -5,6 +5,7 @@ title:  "[Quick tip] A guide is always good when working remotely"
 date:   2017-12-11 18:21:00
 category: Development
 tags: [devtools, remote, better-pro]
+lang: en
 ---
 
 The title speaks truthfully, remote work is good but ain't easy as people are used to thinking. Most of the current companies don't know how to deal with it and some of them even spread horrible lies difficulting the adoption of this wonderful working style.

@@ -5,6 +5,7 @@ title:  "[QuickTips] Ensure that html tag attribute exists and isn't empty"
 date:   2015-10-27 20:26:00
 category: Development
 tags: [jquery, selector, quicktips]
+lang: en
 ---
 
 Javascript is a language with thousands of frameworks and together with them are

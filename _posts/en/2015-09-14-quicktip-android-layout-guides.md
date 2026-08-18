@@ -5,6 +5,7 @@ title:  "[QuickTips] Turn guide lines in your Android device"
 date:   2015-09-14 17:16:00
 category: Development
 tags: [android, layout, quicktips, mobile]
+lang: en
 ---
 
 Launching applications nowadays require, amongst other things, excellent user experience with awesome visuals, and being a programmer is not only taking care of making code but also caring for whatever one can do to improve those two items.
