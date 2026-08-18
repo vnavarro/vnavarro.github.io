@@ -6,6 +6,7 @@ date:   2025-08-22 10:00:00 -0300
 description: ""
 category: Development
 tags: [quicktips, development, assertions, programming]
+lang: en
 ---
 
 I believe the use of assertions is very important during the software development process. It prevents //TODOs from becoming just a memory sent to the code repository and forever deposited on the shelf.

@@ -1,16 +1,17 @@
 ---
-title: "[QuickTips] Uma forma de simplificar temas nos seus Apps"
-description: A necessidade de temas é parte da rotina de um desenvolvedor, apresento então uma forma de utilizar múltiplos temas no iOS com Swift.
+title: "[QuickTips] One way to simplify theming your Apps"
+description: The need of themes is part of a developer's life, here I present a way of using multiple themes in iOS with Swift.
 date: 2021-05-30 19:24:00
 category: 'Development'
 background: '#353b48'
+lang: en
 ---
 
-Não é incomum criar aplicativos que são muito similares ou até trabalhar em alguns que aplicam diferentes layouts, seja por razões de adaptação cultural, acessibilidade, tema escuro/claro, etc. Não importando a razão, você estaria criando mecanismos para permitir seu app mudar rapidamente entre esses layouts e um codigo bem arquitetado pode ser a diferença entre o sucesso e refatorações subsequentes, ou até pior, um lixo completo de código que alguém irá questionar "podemos jogar isso fora e começar novamente?".
+Is **not** uncommon to create apps that are similar or even work in apps that apply different layouts, be the reason cultural adaptation, accessibility, dark vs light theme, etc. No matter the reason you would be creating mechanisms for allowing your app to quickly changing between layouts, a well-architected code may be the difference between success and subsequent refactoring or even worse total garbage code that someone will question "may we drop this and start anew?".
 
-Com certeza existem diversas formas de atacar esse problema, e a solução que estou propondo aqui pode não se encaixar em todo e qualquer requisito de um projeto, ainda assim é uma idéia que tem funcionado muito bem em projetos que trabalhei e pode ser de ajuda valiosa para posicionar projetos na direção correta ou ao menos iniciar uma discussão sobre tal necessidade.
+Sure there are multiple ways of approaching this issue and the solution I'm proposing here may not fit every project needs, still is an idea that worked really well in some projects I worked with and may be helpful to get other projects going in the right direction or at least start the discussion about it.
 
-Abaixo temos a solução com um mix de protocolos e classes, é robusta o suficiente para permitir crescimentos futuros.
+Following is the solution with a mix of protocols and classes, which is robust enough to allow for future growth.
 
 ```swift
 class Theme {
@@ -43,7 +44,7 @@ class DefaultTheme: Theme {
 }
 ```
 
-Adicionar um segundo tema chamado **AlternativeTheme** é fácil dado a estrutura anterior.
+Adding another theme called **AlternativeTheme** is easy given the base structure above.
 
 ```swift
 class AlternativeTheme: Theme {
@@ -61,7 +62,7 @@ class AlternativeTheme: Theme {
 }
 ```
 
-Sensacional, certo? Sim, com certeza é. No entanto eu não sou fã desses inits nos temas e prefiro usar protocol para definir o **Theme** e delegar o gerenciamento do tema atual para uma outra estrutura de design. Como refatorei então?
+Great right? Yes, indeed it is. Still, I dislike the usage of init on those custom themes and I prefer using a protocol to define the **Theme** and delegate setting the current theme instance to another design structure. So how did I refactored it?
 
 ```swift
 protocol Theme {
@@ -98,7 +99,7 @@ class AlternativeTheme: Theme {
 }
 ```
 
-Ainda poderia, por exemplo, surgir uma questão sobre fontes? Deveriam ficar nos temas também? Bom, isso depende da sua vontade e das necessidades do sistema de temas. Considerando esse ponto como um requisito uma opção poderia ser algo como o código a seguir.
+Neat! But one would ask what about fonts? Should they be themed too? Well, that depends on how you desire your theming system to work. Considering that as a requirement, one option could be something like the following additional code.
 
 ```swift
 protocol FontStyles {
@@ -116,7 +117,7 @@ struct DefaultFontStyles: FontStyles {
 }
 ```
 
-Com isso só precisamos atualizar o **Theme** e o restante de acordo.
+Now we just need to add those to the Theme and update everything else accordingly.
 
 ```swift
 protocol Theme {
@@ -137,12 +138,12 @@ class AlternativeTheme: Theme {
 }
 ```
 
-Porque o **FontStyle** foi declarado fora das classes customizadas de Theme? Nesse caso foi apenas pela simplicidade. Partiu pontos finais!
+Why isn't **FontStyle** declared inside Theme classes like **ColorPalette**? In this case just for the sake of simplicity. To final points, off we go!
 
-1 - Com essa simples mecanica do **AppTheme** podemos criar apps que mudam facilmente de estilo;
+1 - With this simple **AppTheme** schema we may create apps that easily change in style;
 
-2 - Podemos também criar projetos *white label* mais rapidamente, e;
+2 - We also can create white label projects faster, and;
 
-3 - Se tivermos um projeto em que o *backend* determina o tema selecionado, a troca pode ser feita através do nome do tema, sendo esse o nome da classe com uma simples mudança no **AppTheme.current** após fazer a leitura do JSON.
+3 - If we have a project in which the backend determines the selected theme we could simply tie it to our class name and change **AppTheme.current** after parsing JSON.
 
-Próximo desafio: usar o **UIFontDescriptor** para a definição de *traits* ao invés do nome da fonte chumbado no código.
+Next challenge: use **UIFontDescriptor** for font traits definition instead of hardcoded font name.

@@ -5,6 +5,7 @@ title:  "[Be a better pro] Books to read - The Passionate programmer"
 date:   2015-03-10 11:25:00
 category: Self-improvement
 tags: [better pro, books to read, passionate programmer]
+lang: en
 ---
 
 There is more on career development for programmers than just train hard on their technical "features".

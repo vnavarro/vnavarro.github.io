@@ -10,6 +10,7 @@ tags:
   - poesia
   - escrita
   - vida
+lang: pt
 ---
 
 O tempo que escorre me é conhecido, transpassa-me como tempestade, sem pedir licença ou sequer desculpar-se por tamanha audácia.

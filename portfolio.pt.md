@@ -1,18 +1,21 @@
 ---
-title: 'Portfolio'
+title: 'Portfólio'
 date: 2023-04-28 19:03:00
 layout: page
+lang: pt
+page_id: portfolio
+permalink: /portfolio/
 ---
 
-Following are some of the projects I worked with.
+A seguir está uma seleção de alguns dos projetos que trabalhei.
 
 # Wildlife Studios
 
 ## Color by Number, Paint by Number, Colorfy
 
-Huge painting games from one of the biggest brazilian game companies, I've had the opportunity to work, but not limited to:
-* Ads for Interstitial, Banner and Rewarded Ads;
-* Account sync with Facebook, Google, Apple;
+Grandes jogos de pintura de uma das maiores empresas de jogos brasileira. Uma lista não exaustiva do meu trabalho:
+* Ads para Interstitial, Banner e Rewarded Ads;
+* Account sync com Facebook, Google, Apple;
 * Spray brush;
 * Paint brush;
 * Daily streak;
@@ -56,18 +59,18 @@ Your browser does not support the video tag.
 <a href="https://play.google.com/store/apps/details?hl=en&id=com.fungamesforfree.colorfy"><img width="135" src="/assets/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Colorfy on GooglePlay"/></a>
 
 # SYBO
-## Tools for Subway Surfers, Blades of Brim and other games.
+## Ferramental para Subway Surfers, Blades of Brim e outros jogos.
 
-Worked in the tooling team that provides core solutions for SYBO's games, like but not limited:
+Trabalhei na equipe de *tooling* que provê soluções cruciais para os jogos da SYBO, numa lista não exaustiva: 
 * Ads;
 * Login;
 * Data storage;
 * Bootstrap;
 * Cross-Promo;
 * Jenkins;
-* Third-party SDKs without direct Unity support.
+* Third-party SDKs sem suporte direto ao motor de jogos Unity.
 
-I also worked on Blades of Brim live maintenance once the project's team was disbanded.
+Também trabalhei com a manutenção do jogo Blades of Brim uma vez que o time do projeto foi desmontado.
 
 <h3><u>Subway Surfers</u></h3>
 
@@ -93,14 +96,14 @@ I also worked on Blades of Brim live maintenance once the project's team was dis
 <a href="https://apps.apple.com/us/app/blades-of-brim/id891278325"><img width="120" src="/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Blades of Brim on Appstore"/></a>
 <a href="https://play.google.com/store/apps/details?id=com.sybogames.brim&hl=pt_BR"><img width="135" src="/assets/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Blades of Brim on GooglePlay"/></a>
 
-# Work on Olivia
-## The finances organizer app that was bought by Nubank
+# Trabalho na Olivia
+## O organizador de finanças que foi comprado pela Nubank
 
-I was one of the senior mobile engineers responsible for both iOS/Android versions of Olivia, a finances organizer that used artificial inteligence to help users understand better their expenses and save money.
+Fui um dos desenvolvedor *mobile* senior responsável por ambas versões do aplicativo Oliva (mesmo nome da empresa) para iOS e Android. Olivia foi um app organizador de finanças que utilizava IA, antes da existência dos primeiros agentes e boom da IA, que ajudava os usuários a compreender seus gastos e guardar dinheiro.
 
-It was an amazing app, its huge success made the company, of same name, being noticed by Nubank, which bought and absorbed the technology removing the app from Google and Apple stores.
+Foi um app incrível, seu sucesso fez com que a empresa fosse notada pelo Nubank, que decidiu comprá-la e absorver a tecnologia terminando por remover o app das lojas.
 
-Article in portuguese by Nubank explaining the acquisition [here](https://building.nubank.com.br/pt-br/nubank-e-olivia-o-inovando-o-futuro-da-gestao-financeira-personalizada/)
+Artigo do Nubank explicando a aquisição [here](https://building.nubank.com.br/pt-br/nubank-e-olivia-o-inovando-o-futuro-da-gestao-financeira-personalizada/).
 
  <img src="/assets/projects/olivia_summary.jpeg" alt="Olivia summary screen in portugues" width="400"/>
  <img src="/assets/projects/olivia_chat.jpeg" alt="Olivia chat screen in portugues" width="1306"/>
@@ -108,7 +111,7 @@ Article in portuguese by Nubank explaining the acquisition [here](https://buildi
 # Hive Digital Entertainment
 ## Candypot Pocket!
 
-A port from Hive's successful Facebook game to Android, this puzzle game had fruit candies that played cheerful musical notes according to the size of player's combos, a unique take on match puzzle games.
+Trabalhei no port desse jogo de sucesso da Hive de sua versão do Facebook para o Android. Esse jogo *puzzle* tinha doces de frutas que tocavam notas musicais de acordo com os combos feitos pelo jogador, uma versão única dos jogos estilo *match* da época.
 
 <img src="/assets/projects/candypotpocket_1.png" alt="CandypotPocket! main screen" width="400"/>
 <img src="/assets/projects/candypotpocket_6.png" alt="CandypotPocket! gameplay 1" width="400"/>

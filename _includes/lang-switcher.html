@@ -1,0 +1,34 @@
+<!-- <div>
+{% for lang in site.languages %}
+    {% assign lang_name = site.data[lang].l10n.lang_name %}
+    {% if lang == site.active_lang %}
+{{ lang_name }}
+    {% else %}
+        {% if lang == site.default_lang %}
+<a href=" {{ page.url }}">{{ lang_name }}</a>
+        {% else %}
+<a href="/{{ lang }}{{ page.url }}">{{ lang_name }}</a>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</div> -->
+<div class="lang-switcher">
+{% for lang in site.languages %}
+  {% assign lang_name = site.data[lang].l10n.lang_name %}
+  {% if lang == site.active_lang %}
+    <span class="lang-switcher__current">{{ lang_name }}</span>
+  {% else %}
+    {% if page.permalink_lang and page.permalink_lang[lang] %}
+      {% capture lang_href %}{{ site.baseurl }}{% if lang != site.default_lang %}/{{ lang }}{% endif %}{% if page.permalink_lang[lang] != '/' %}{{ page.permalink_lang[lang] }}{% endif %}{% endcapture %}
+	  <a class="lang-switcher__link" href=" {{ lang_href | strip }}" hreflang="{{ lang }}">{{ lang_name }}</a>
+    {% else %}	
+      {% if lang == site.default_lang %}	  
+		<a class="lang-switcher__link" href=" {{ page.url | relative_url }}" hreflang="{{ lang }}">{{ lang_name }}</a>
+      {% else %}
+        {% capture lang_href %}/{{ lang }}{{ page.url }}{% endcapture %}
+		<a class="lang-switcher__link" href="{{ lang_href | strip }}" hreflang="{{ lang }}">{{ lang_name }}</a>
+      {% endif %}
+    {% endif %}	    
+  {% endif %}
+{% endfor %}
+</div>

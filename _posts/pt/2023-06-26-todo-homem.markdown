@@ -10,6 +10,7 @@ tags:
   - patriarcado
   - poesia
   - sociedade
+lang: pt
 ---
 
 Mas eu fui criado assim…

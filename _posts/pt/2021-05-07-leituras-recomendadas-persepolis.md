@@ -7,6 +7,7 @@ date: '2021-05-07 17:22:00'
 image: 'assets/img/persepolis02.jpg'
 category: 'Review'
 background: "#b33662"
+lang: pt
 ---
 
 Se tem um gosto que herdei de meu pai que acho muito saudável é a vontade de consumir avidamente boas revistas em quadrinhos, as famigeradas HQs. Comecei com seleções que vieram de fora, principalmente: Batman, Super e Homem X-Men. E somando a essas a infância tem aquele gostinho de Turma da Mônica, Tio Patinhas, Zeca Carioca e Pato Donald.

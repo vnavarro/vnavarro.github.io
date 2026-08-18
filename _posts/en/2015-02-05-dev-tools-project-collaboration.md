@@ -5,6 +5,7 @@ title:  "[DevTools] Online Project Collaboration"
 date:   2015-02-05 16:00:00
 category: Development
 tags: [devtools, management]
+lang: en
 ---
 From time to time friends keep asking me the same question: Which is the best project management tool you know?  
 First of all there is no such a thing as the best tool ever to solve a given problem, there are tools and there are problems and we should stick with the stack that solves them.  

@@ -7,6 +7,7 @@ date: '2021-04-30 06:37:39'
 image: 'assets/img/unsplash01.jpg'
 category: 'Review'
 background: "#b33662"
+lang: pt
 ---
 
 Pode ser fácil não nos darmos conta do tanto que as produções humanas influenciam toda a sociedade ao seu redor e até ao redor do mundo todo, mesmo quando criadas em um povoado minúsculo no meio de uma ilha remota.

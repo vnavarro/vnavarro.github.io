@@ -35,7 +35,7 @@ theme: jekyll-theme-so-simple
 plugins:
   - jekyll-feed
   - jekyll-compose
-  #- jekyll-polyglot
+  - jekyll-polyglot
 
 jekyll_compose:
   default_front_matter:
@@ -51,10 +51,14 @@ jekyll_compose:
       tags:
 
 #polyglot config
-#languages: ["en", "pt"]
-#default_lang: "pt"
-#exclude_from_localization: ["assets", "javascript", "images", "css", "public"]
-#parallel_localization: true
+languages: ["en", "pt"]
+default_lang: "en"
+exclude_from_localization: ["assets", "javascript", "images", "css", "public", "smag"]
+# parallel_localization: true
+lang_from_path: true
+
+sass:
+  sourcemap: never
 
 skin: "/assets/css/skins/myskin.css"
 

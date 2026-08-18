@@ -5,6 +5,7 @@ title:  "[A programmer's journey] Rust quest - day 1"
 date:   2015-03-08 20:15:00
 category: Development
 tags: [journey, rust, programming languages]
+lang: en
 ---
 I always loved to learn, I was raised that way, instigated to pursue curiosity and knowledge because it is indeed fun to do it.
 Now as a programmer I have some urge from time to time to meet new languages, and this is the turn for Rust.

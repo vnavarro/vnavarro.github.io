@@ -6,6 +6,7 @@ date:   2025-09-22 10:00:00 -0300
 description: ""
 category: Development
 tags: [homelab, development, hardware, programming, experimentation, colima, casaos, opensource]
+lang: pt
 ---
 
 > **TL;DR: Só quer o resultado? Vai no perfil do [Github](https://github.com/vnavarro/colima_casaos).**

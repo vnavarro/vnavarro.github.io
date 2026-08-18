@@ -14,6 +14,7 @@ tags:
   - sociedade
   - habilidades
   - reflexão
+lang: pt
 ---
 
 > Nota: Esse é um post de 2016 que foi públicado no [Caixa de Chocolates](https://medium.com/caixa-de-chocolates-hackeando-a-vida/percep%C3%A7%C3%B5es-sobre-falha-como-uma-op%C3%A7%C3%A3o-18df3c26ab4e) no Medium e originalmente no Tumblr, onde minha página não existe mais.

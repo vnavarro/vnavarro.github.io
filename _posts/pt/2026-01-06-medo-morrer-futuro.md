@@ -6,6 +6,7 @@ date:   2026-01-06 16:00:00 -0300
 description: ""
 category: caixa de chocolates
 tags: [depressão, ansiedade, crise climática, capitalismo, saúde, reflexão, morte, envelhecimento]
+lang: pt
 ---
 
 Ter medo do futuro, mais especificamente medo de se encarar numa situação onde haja arrependimento traduzido em medo de desperdiçar o tempo, poderia ser só um lampejo da minha ansiedade dizendo que me preocupo em ponderar minhas decisões.

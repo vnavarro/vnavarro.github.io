@@ -6,6 +6,7 @@ date:   2025-08-22 10:00:00 -0300
 description: ""
 category: Development
 tags: [quicktips, development, assertions, programming]
+lang: pt
 ---
 
 Julgo ser muito importante o uso de *asserts* durante o processo de desenvolvimento de software, ele evita que os //TODO virem apenas uma lembrança enviada para o repositório de código e para sempre depositado em uma geladeira.

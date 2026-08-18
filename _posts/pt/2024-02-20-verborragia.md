@@ -10,6 +10,7 @@ tags:
   - sina
   - saúde mental
   - pesadelo
+lang: pt
 ---
 
 Quem você pensa que é?

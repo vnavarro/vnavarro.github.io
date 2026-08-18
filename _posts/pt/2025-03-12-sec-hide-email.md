@@ -13,6 +13,7 @@ tags:
   - email
   - duckduckgo
   - firefox relay
+lang: pt
 ---
 
 Segurança digital é uma sopa de letrinhas que abarca uma série de assuntos desde os mais técnicos até os mais banais da vida cotidiana. 

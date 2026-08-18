@@ -11,6 +11,7 @@ tags:
   - educação sexual
   - abuso infantil
   - trauma
+lang: pt
 ---
 
 A noite anunciava sua chegada mudando os tons do céu em mesclas de azul, laranja e escuridão.

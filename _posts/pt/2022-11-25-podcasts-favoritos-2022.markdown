@@ -10,6 +10,7 @@ tags:
   - favorits
   - lists
 last_modified_at: 2017-03-09T14:25:52-05:00
+lang: pt
 ---
 
 Curadoria de conteúdo ajuda a salvar nosso tempo de passar por um monte de porcaria que as pessoas colocam na internet, fora coisas que só não são do nosso gosto. E como já fui perguntado infinitas vezes quais podcasts estou escutando, decide então começar a mandar meu listão da vez.
