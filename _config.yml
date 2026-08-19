@@ -111,6 +111,9 @@ sass:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+kramdown:
+  math_engine: katex
+
 feed:
   title: "Vitor Navarro's site"
   description: "This is my personal site where I share posts about my projects, programming, technology and a bit more."
