@@ -5,9 +5,9 @@ title:  "Migrando do Notas/Evernote para o Joplin"
 date:   2026-08-19 16:00:00 -0300
 description: ""
 categories: 
-  - desenvolvimento
+  - development
   - caixa de chocolates
-tags: [opensource, desenvolvimento, migração de app, alternativas, notas, joplin]
+tags: [opensource, development, app migration, alternatives, note taking, joplin]
 katex: true
 mermaid: true
 lang: pt
